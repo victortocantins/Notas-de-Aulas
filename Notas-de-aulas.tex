@@ -90,7 +90,7 @@
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{28 - 05 - 2019}
+    \date{02 - 07 - 2019}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -1459,6 +1459,9 @@ A segunda expressão entre parênteses é o valor médio do ângulo \(\tan ^{-1}
 
 Comparação desta expressão com a Equação \eqref{eq:0269} mostra que a anomalia da falha vertical (ou uma calha horizontal semi-infinita) é a mesma que se a calha anômala fosse substituída por uma fina camada de espessura \(h\) no ponto médio do degrau vertical. A equação \eqref{eq:0272} é chamada de ``aproximação de fina folha''. Ela é precisa em cerca de \(2\%\) desde que \(z_0>2h\).
 
+\hypertarget{isostasia}{%
+\section{Isostasia}\label{isostasia}}
+
 \hypertarget{exercicios}{%
 \section{Exercícios}\label{exercicios}}
 
@@ -1492,6 +1495,929 @@ Comparação desta expressão com a Equação \eqref{eq:0269} mostra que a anoma
 
 \BeginKnitrBlock{exercise}
 \protect\hypertarget{exr:exr8}{}{\label{exr:exr8} }O que é a correção topográfica na redução de dados de gravidade? Por que isso é necessário?
+\EndKnitrBlock{exercise}
+
+\hypertarget{cap03}{%
+\chapter{Sismologia e a estrutura interna da Terra}\label{cap03}}
+
+\hypertarget{introducao-1}{%
+\section{Introdução}\label{introducao-1}}
+
+A sismologia é uma ciência venerável com uma longa história. O cientista chinês Chang Heng é creditado com a invenção em 132 dC, quase dois mil anos atrás, do primeiro sismoscópio funcional, um dispositivo primitivo, mas engenhoso, de construção elegante e design bonito que registrou a chegada de ondas sísmicas e permitiu ao observador inferir a direção de onde eles vieram. As origens dos terremotos não foram ao todo compreendidas. Durante séculos, esses temíveis eventos foram atribuídos a poderes sobrenaturais. A destruição e a perda de vidas que o acompanhavam eram freqüentemente entendidas em termos supersticiosos e interpretadas como punição infligida pelos deuses a uma sociedade pecaminosa. Menções bíblicas de terremotos - por exemplo, na destruição de Sodoma e Gomorra - enfatizam esse tema vingativo.
+Embora os primeiros astrônomos e filósofos procurassem explicar os terremotos como fenômenos naturais não relacionados a fatores espirituais, a crença de que os terremotos eram uma expressão da ira divina prevaleceu até o advento da Era da Razão no século XVIII. O caminho para uma compreensão lógica dos fenômenos naturais foi estabelecido no século XVII pelas observações sistemáticas de cientistas como Galileu, a descoberta e afirmação de leis físicas por Newton e o desenvolvimento do pensamento racional pelos filósofos contemporâneos.
+Além do desenvolvimento das técnicas de observação científica, uma compreensão das leis da elasticidade e da força limitada dos materiais era necessária antes que a sismologia pudesse progredir como ciência. Em um estudo pioneiro, Galileu, em 1638, descreveu a resposta de um feixe ao carregamento e, em 1660, Hooke estabeleceu a lei da primavera. No entanto, outros 150 anos se passaram antes que as equações generalizadas de elasticidade fossem estabelecidas por Navier. Durante as primeiras décadas do século XIX, Cauchy e Poisson completaram os fundamentos da moderna teoria da elasticidade.
+As descrições precoces das características do terremoto foram necessariamente restritas a observações e medições na região de ``campo próximo'' do terremoto, ou seja, em proximidade comparativamente próxima ao local onde ocorreu. Um avanço conspícuo na ciência da sismologia foi conseguido com a invenção de um sismógrafo sensível e confiável por John Milne em 1892. Embora maciça e primitiva em comparação com instrumentos modernos, a precisão e a sensibilidade deste novo dispositivo revolucionário permitiram descrições precisas e quantitativas de terremotos a grandes distâncias de suas fontes, em sua região de ``campo distante''. O acúmulo de registros confiáveis de terremotos distantes (designados como eventos ``telesísmicos'') tornou possível o estudo sistemático da sismicidade da Terra e de sua estrutura interna. O grande terremoto de São Francisco, em 1906, foi intensamente estudado e forneceu um ímpeto aos esforços para entender a origem desses fenômenos naturais, que foram esclarecidos no mesmo ano pelo modelo elástico de rebote de H. F. Reid. Além disso, em 1906, R. D. Oldham propôs que a melhor explicação para os tempos de viagem das ondas telessísmicas através do corpo da Terra requeria um núcleo grande, denso e provavelmente fluido; a profundidade ao seu limite exterior foi calculado em 1913 por B. Gutenberg. A partir da análise dos tempos de viagem das ondas do corpo sísmico de perto de terremotos na Iugoslávia, A. Mohoroviçić em 1909 inferiu a existência da fronteira entre a crosta e o manto, e em 1936 a existência do sólido núcleo interno foi deduzida por I. Lehmann. As definições dessas e outras descontinuidades associadas à estrutura interna profunda da Terra, desde então, tem sido muito refinada.
+As necessidades das potências mundiais para detectar de maneira incontroversa o teste de bombas nucleares por seus adversários proporcionaram considerável estímulo à ciência da sismologia nas décadas de 1950 e 1960. A quantidade de energia liberada em uma explosão nuclear é comparável à de um terremoto, mas os fenômenos podem ser discriminados através da análise das direções do primeiro movimento registrado pelos sismógrafos. A localização precisa do evento exigiu um melhor conhecimento das velocidades sísmicas da onda de corpo em todo o interior da Terra. Essas necessidades políticas da Guerra Fria levaram a grandes melhorias na instrumentação sismológica e ao estabelecimento de uma nova rede mundial de estações sísmicas com as mesmas características físicas.
+Esses desenvolvimentos tiveram um importante feedback para as ciências da terra, porque resultaram em uma localização mais precisa dos epicentros do terremoto e uma melhor compreensão da estrutura da Terra. O padrão de sismicidade global, com sua concentração predominante em zonas estreitas ativas, foi um fator importante no desenvolvimento da teoria das placas tectônicas, pois permitiu a identificação das margens das placas e a sensação de movimentos relativos das placas.
+As técnicas de sismologia de refração e reflexão, utilizando explosões controladas artificialmente, foram desenvolvidas na busca por petróleo. Desde a década de 1960, esses métodos têm sido aplicados com notável sucesso na resolução de estruturas crustais detalhadas sob continentes e oceanos. O desenvolvimento de uma poderosa tecnologia de computadores possibilitou refinamentos na localização do terremoto e na determinação dos tempos de viagem das ondas sísmicas de corpo. Esses avanços levaram ao moderno campo da tomografia sísmica, uma técnica poderosa e espetacular para revelar regiões do interior da Terra que têm velocidades sísmicas anômalas. No campo da sismologia do terremoto, a necessidade de proteger populações e estruturas criadas pelo homem resultou no investimento de um esforço considerável no estudo da previsão de terremotos e no desenvolvimento de códigos de construção para reduzir os danos do terremoto.
+Para apreciar como os sismólogos descobriram a estrutura do interior da Terra, é necessário entender que tipos de ondas sísmicas podem ser geradas por um terremoto ou uma fonte artificial (como uma explosão controlada). A propagação de um distúrbio sísmico
+através da Terra é governada por propriedades físicas, como a densidade, e pela maneira como o material do interior da Terra reage à perturbação. O material dentro da fonte sísmica sofre deformação permanente, mas fora da fonte a passagem de um distúrbio sísmico ocorre predominantemente pelo deslocamento elástico do meio; isto é, o meio não sofre deformação permanente. Antes de analisar os diferentes tipos de ondas sísmicas, é importante ter uma boa noção da teoria da elasticidade elementar. Isso requer a compreensão dos conceitos de tensão e deformação, e as várias constantes elásticas que os relacionam.
+
+\hypertarget{teoria-da-elasticidade}{%
+\section{Teoria da Elasticidade}\label{teoria-da-elasticidade}}
+
+\hypertarget{comportamento-elastico-anelastico-e-plastico-dos-materiais}{%
+\subsection{Comportamento elástico, anelástico e plástico dos materiais}\label{comportamento-elastico-anelastico-e-plastico-dos-materiais}}
+
+Quando uma força é aplicada a um material, ele se deforma. Isso significa que as partículas do material são deslocadas de suas posições originais. Desde que a força não exceda um valor crítico, os deslocamentos são reversíveis; as partículas do material retornam às suas posições originais quando a força é removida, e nenhuma deformação permanente resulta. Isso é chamado de comportamento elástico. As leis da deformação elástica são ilustradas pelo exemplo a seguir. Considere um bloco cilíndrico de altura \(h\) e área de seção transversal \(A\), submetido a uma força \(F\) que atua para estender o bloco para uma altura \(\Delta h\) (Figura \ref{fig:cilindros}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{fig/Fig_03.01} 
+
+}
+
+\caption{Uma força $F$ atuando em uma barra com área transversal $A$ estende o comprimento original $h$ pela quantidade $\Delta h$. A lei de Hooke de deformação elástica afirma que $\Delta/ h$ é proporcional a $F/ A$.}\label{fig:cilindros}
+\end{figure}
+
+Experimentos mostram que, para a deformação elástica, \(\Delta h\) é diretamente proporcional à força aplicada e à dimensão não esticada do bloco, mas é inversamente proporcional à seção transversal do bloco.
+Isto é, \(\mathbf{\Delta h} = \frac{Fh}{A}\) ou
+
+\begin{equation}
+ \frac{F}{A} = \frac{\Delta h}{h} \label{eq:0301}
+\end{equation}
+
+Quando a área \(A\) se torna infinitesimalmente pequena, o valor limite da força por unidade de área \((F / A)\) é chamado de tensão ou esforço. As unidades de tensão são as mesmas que as unidades de pressão. A unidade SI é o pascal, equivalente a uma força de 1 Newton por metro quadrado: \(\mathrm{1\, Pa} = \frac{N}{m^2}\), no c.g.s. a unidade é igual a 106 \(\mathrm{dina}\,\mathrm{cm}^{-2}\) Quando \(h\) é infinitesitalmente pequeno, a mudança fracionária na dimensão \((\Delta h/h)\) é chamada de deformação \(\varepsilon\), que é uma quantidade adimensional. A equação \eqref{eq:0301} afirma que, para o comportamento elástico, a deformação em um corpo é proporcional à tensão aplicada a ele. Esse relacionamento linear é chamado lei de Hooke que forma a base da teoria da elasticidade.
+
+Além de um certo valor do tensão, chamado de limite de proporcionalidade, a lei de Hooke não mais se sustenta (Figura \ref{fig:hooke}a). Embora o material ainda seja elástico (retorna à sua forma original quando a tensão é removida), a relação tensão-deformação não é linear. Se o sólido for deformado além de um certo ponto, conhecido como limite elástico, ele não recuperará sua forma original quando a tensão for removida. Nesta faixa, um pequeno aumento na tensão aplicada causa um aumento desproporcionalmente grande na deformação. Diz-se que a deformação é plástica. Se a tensão aplicada é removida na faixa plástica, a deformação não retorna a zero; uma deformação permanente foi produzida. Eventualmente a tensão aplicada excede a força do material e a falha ocorre. Em algumas rochas, a falha pode ocorrer abruptamente dentro da faixa elástica; isso é chamado comportamento frágil. O comportamento não-frágil ou dúctil dos materiais sob tensão depende da escala de tempo da deformação (Figura \ref{fig:hooke}b). Um material elástico deforma imediatamente após a aplicação de uma tensão e mantém uma deformação constante até que a tensão seja removida, sobre a qual a deformação retorna ao seu estado original. Um gráfico de tensão-tempo tem uma forma de caixa. No entanto, em alguns materiais, a tensão não atinge um valor estável imediatamente após a aplicação de uma
+tensão, mas sobe gradualmente para um valor estável. Esse tipo de resposta de tensão é característico de materiais anelásticos. Após a remoção da tensão, a deformação dependente do tempo retorna reversivelmente ao nível original. Na deformação plástica, a deformação continua aumentando enquanto a tensão é aplicada. Quando a tensão é removida, a deformação não retorna ao nível original; uma deformação permanente é deixada no material.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{fig/Fig_03.02} 
+
+}
+
+\caption{(a) A relação tensão-deformação para um sólido hipotético é linear (lei de Hooke) até o limite de proporcionalidade, e o material se deforma elasticamente até atingir o limite elástico; Deformação plástica produz mais tensão até que ocorra falha. (b) Variações de cepas elásticas, anelásticas e plásticas com o tempo, durante e após a aplicação de um esforço.}\label{fig:hooke}
+\end{figure}
+
+Nosso conhecimento da estrutura e natureza do interior da Terra derivou em grande parte dos estudos de ondas sísmicas liberadas por terremotos. Um terremoto ocorre na crosta ou no manto superior quando a tensão tectônica excede a força local das rochas e a falha ocorre. Longe da região de rompimento ondas sísmicas se espalharam de um terremoto por deformação elástica das rochas através das quais eles viajam. Sua propagação depende de propriedades elásticas que são descritas pelas relações entre esforço e tensão.
+
+\hypertarget{matriz-de-tensao}{%
+\subsection{Matriz de Tensão}\label{matriz-de-tensao}}
+
+Considere uma força \(\mathbf{F}\) atuando sobre um prisma retangular \(\mathrm{P}\) em um referencial definido pelos eixos de coordenadas cartesianas ortogonais \(x\), \(y\) e \(z\) (Figura \ref{fig:tension}a). A componente de \(\mathbf{F}\) que atua na direção do eixo \(x\) é designado \({F_x}\); a força \(\mathbf{F}\) é totalmente definida pelas suas componentes \({F_x}\), \(F_y\) e \({F_z}\). O tamanho de um pequeno elemento de superfície é caracterizado por sua área \(\mathbf{A}\), enquanto sua orientação é descrita pela direção normal à superfície (Figura \ref{fig:tension}b). A pequena superfície com área normal ao eixo \({x}\) é designada por \({A_x}\).
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{fig/Fig_03.03} 
+
+}
+
+\caption{(a) Componentes $F_x$, $F_y$ e $F_z$ da força $\mathbf{F}$ atuando em um referencial definido pelos eixos coordenados cartesianos ortogonais $x$, $y$ e $z$. (b) A orientação de um pequeno elemento de superfície com área $A_x$ é descrita pela direção normal à superfície. (c) As componentes de força paralelos ao eixo $x$ resultam na tensão normal em $\sigma_{xx}$; as componentes paralelos aos eixos $y$ e $z$ causam tensões de cisalhamento em $\sigma_{xy}$ e  $\sigma_{xz}$.}\label{fig:tension}
+\end{figure}
+
+A componente da força \({F_x}\) atuando normal à superfície \({A_x}\) produz uma tensão normal, denotada por \(\sigma_{xx}\). As componentes da força ao longo dos eixos \(x\) e \(z\) resultam em tensões de cisalhamento \(\sigma_{yx}\) e \(\sigma_{zx}\) (Figura \ref{fig:tension}c), dadas por
+
+\begin{equation}
+  \sigma_{xx}= \lim\limits_{A_x \to 0} \left(\frac{F_x}{A_x}\right) \quad
+  \sigma_{yx}= \lim\limits_{A_x \to 0} \left(\frac{F_y}{A_x}\right) \quad
+  \sigma_{zx}= \lim\limits_{A_x \to 0} \left(\frac{F_z}{A_x}\right) \label{eq:0302}
+\end{equation}
+
+Da mesma forma, as componentes da força \(\mathbf{F}\) atuando sobre um elemento da superfície \({A_y}\) normal ao eixo \({y}\) definem uma tensão normal \(\sigma_{yy}\) e tensões de cisalhamento \(\sigma_{xy}\) e \(\sigma_{zy}\), enquanto as componentes de \(\mathbf{F}\) que atuam sobre um elemento de superfície \({A_z}\) normal ao eixo \({z}\) define uma tensão normal \(\sigma_{zz}\) e tensões de cisalhamento \(\sigma_{xz}\) e \(\sigma_{yz}\). As nove componentes de tensão definem completamente o estado de tensão de um corpo. Elas são descritas convenientemente pela matriz de tensão:
+
+\begin{equation}
+\left[ \begin{array}{lll}{\sigma_{x x}} & {\sigma_{x y}} & {\sigma_{x z}} \\ {\sigma_{y x}} & {\sigma_{y y}} & {\sigma_{y z}} \\ {\sigma_{z x}} & {\sigma_{z y}} & {\sigma_{z z}}\end{array}\right] \label{eq:0303}
+\end{equation}
+
+Se as forças de um corpo são equilibradas para não dar rotação, esta matriz \(3\times 3\) é simétrica (isto é, \(\sigma_{xy}\) \(\sigma_{yx}\), \(\sigma_{yz}\) \(\sigma_{zy}\), \(\sigma_{zx}\) \(\sigma_{xz}\)) e contém apenas seis elementos independentes.
+
+\hypertarget{matriz-de-deformacao}{%
+\subsection{Matriz de Deformação}\label{matriz-de-deformacao}}
+
+\hypertarget{deformacao-longitudinal}{%
+\subsubsection{Deformação longitudinal}\label{deformacao-longitudinal}}
+
+As deformações produzidas em um corpo também podem ser expressas por uma matriz \(3\times 3\). Considere primeiro o caso unidimensional mostrado na Figura \ref{fig:desloc} de dois pontos em um corpo localizado próximo nas posições \(x\) e \((x+\Delta x)\). Se o ponto \(x\) é deslocado por uma quantidade infinitesimalmente pequena \(u\) na direção do eixo \(x\), o ponto \((x + \Delta x)\) será deslocado por \((u+\Delta u)\), onde \(\Delta u\) é igual a \((\partial u / \partial x) \Delta x\) para primeira ordem. \emph{A deformação longitudinal ou extensão} na direção \(x\) é a variação fracionária no comprimento de um elemento ao longo do eixo \(x\). A separação original dos dois pontos era \(\Delta x\); um ponto foi deslocado por \(u\), o outro por \((u+\Delta u)\), então a nova separação dos pontos é \((\Delta x + \Delta u)\). A componente da deformação paralela ao eixo \(x\), resultante de um pequeno deslocamento paralelo ao eixo \(x\), é denotado \(\varepsilon_{xx}\) e é dado por
+
+\begin{equation}
+\mathbf{\varepsilon_{xx}} = \frac{(\Delta {x} + \frac {\partial u}{\partial x}\Delta{x}) - \Delta{x}}{\Delta {x}} = \frac {\partial u}{\partial x}
+\label{eq:0304}
+\end{equation}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{fig/Fig_03.04} 
+
+}
+
+\caption{Deslocamentos infinitesimais $u$ e $u + \Delta u$ de dois pontos em um corpo que estão localizados próximos nas posições $x$ e $x + \Delta x$, respectivamente.}\label{fig:desloc}
+\end{figure}
+
+A descrição da deformação longitudinal pode ser expandida para três dimensões. Se um ponto (\(x\), \(y\), \(z\)) é deslocado por uma quantidade infinitesimal para (\(x + u\), \(y + v\), \(z + w\)), duas outras deformações longitudinais \(\varepsilon_{yy}\) e \(\varepsilon_{zz}\) são definidas por
+
+\begin{equation}
+\varepsilon_{xx}= \frac{\partial{v}}{\partial y} \quad \text{e} \quad \varepsilon_{zz}= \frac{\partial{w}}{\partial z}  \label{eq:0305}
+\end{equation}
+
+Em um corpo elástico, as deformações transversais \(\varepsilon_{yy}\) e \(\varepsilon_{zz}\) não são independentes da deformação \(\varepsilon_{xx}\). Considere a mudança de forma da barra na Figura \ref{fig:poisson}. Quando ela é esticada paralelamente ao eixo \(x\), torna-se mais fina paralelamente ao eixo \(y\) e paralelamente ao eixo \(z\). As deformações longitudinais transversais \(\varepsilon_{yy}\) e \(\varepsilon_{zz}\) são de sinal oposto, mas são proporcionais à extensão \(\epsilon_{xx}\) e podem ser expressas como
+
+\begin{equation}
+\varepsilon_{yy} = - v \varepsilon_{xx} \quad \text{e} \quad \varepsilon_{zz} = - v \varepsilon_{xx} \label{eq:0306}
+\end{equation}
+
+A constante de proporcionalidade \(v\) é chamada razão de Poisson. Os valores das constantes elásticas de um material restringem-se a situar-se entre 0 (sem contração lateral) e um valor máximo de 0,5 (sem alteração de volume) para um fluido incompressível. Em rochas muito duras, rígidas como o granito \(v\) é de cerca de \(0.45\), enquanto que em sedimentos mal consolidados é de cerca de \(0.05\). No interior da Terra, \(v\) geralmente tem um valor em torno de \(0.24-0.27\). Um corpo para o qual o valor de \(v\) é igual a \(0.25\) é às vezes chamado de corpo de Poisson ideal.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{fig/Fig_03.05} 
+
+}
+
+\caption{Mudança de forma de uma barra retangular sob extensão. Quando esticada paralelamente ao eixo $x$, ela se torna mais fina paralelamente ao eixo $y$ e o eixo $z$.}\label{fig:poisson}
+\end{figure}
+
+\hypertarget{dilatacao}{%
+\subsubsection{Dilatação}\label{dilatacao}}
+
+A \emph{dilatação} \(\theta\) é definida como a mudança fracionária no volume de um elemento no limite quando sua área de superfície diminui para zero. Considere um elemento de volume não deformado (como na descrição da deformação longitudinal) que tem lados \(\Delta x\), \(\Delta y\) e \(\Delta z\) e volume sem distorção \(V= \Delta x \Delta y \Delta z\). Como resultado dos deslocamentos infinitesimais \(\Delta u\), \(\Delta v\) e \(\Delta w\), as arestas aumentam para \(\Delta x + \Delta u\), \(\Delta y + \Delta v\) e \(\Delta z + \Delta w\), respectivamente. A mudança fracionária no volume é
+
+\begin{align}
+\frac{\Delta{\mathbf {V}}}{\mathbf{V}} & = \frac {(\Delta {x} + \Delta{u})(\Delta{y} + \Delta{v})(\Delta{z} + \Delta{w}) - \Delta{x} \Delta{y} \Delta{z}}{\Delta{x} \Delta{y} \Delta{z}} \nonumber\\
+& = \frac {\Delta{x} \Delta{y} \Delta{z} + \Delta{u} \Delta{y} \Delta{z} + \Delta{v} \Delta{z} \Delta{x} + \Delta{w} \Delta{x} \Delta{y} - \Delta{x} \Delta{y} \Delta{z}}{\Delta{x} \Delta{y} \Delta{z}} \nonumber \\
+&=\frac {\Delta {u}}{\Delta{x}} + \frac {\Delta {v}}{\Delta{y}} + \frac {\Delta {w}}{\Delta {z}}
+\label{eq:0307}
+\end{align}
+
+onde quantidades muito pequenas, como \(\Delta u\Delta v\), \(\Delta v\Delta w\), \(\Delta w\Delta u\) e \(\Delta u\Delta v\Delta w\) foram ignoradas. No limite, como \(\Delta x\), \(\Delta y\) e \(\Delta z\) todos se aproximam de zero, obtemos a dilatação
+
+\begin{align}
+\theta &= \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} + \frac{\partial w}{\partial z} \nonumber\\
+\theta &= \varepsilon_{xx} + \varepsilon_{yy} + \varepsilon_{zz}
+\label{eq:0308}
+\end{align}
+
+\hypertarget{tensao-de-cisalhamento}{%
+\subsubsection{Tensão de Cisalhamento}\label{tensao-de-cisalhamento}}
+
+Durante a deformação, um corpo geralmente experimenta não apenas deformações longitudinais como descrito acima. As componentes de Tensão de cisalhamento \((\sigma_{xy}, \sigma_{yz}, \sigma_{zx})\) produzem tensões de cisalhamento, que se manifestam como mudanças nas relações angulares entre partes de um corpo. Isso é mais facilmente ilustrado em duas dimensões. Considere um retângulo \(ABCD\) com lados \(x\) e \(y\) e sua distorção devido as tensões de cisalhamento atuando no plano \(x-y\) (Figura \ref{fig:quadrado}). Como no exemplo anterior da deformação longitudinal, o ponto \(A\) é deslocado paralelamente ao eixo \(x\) por uma quantidade \(u\) (Figura \ref{fig:quadrado}a).
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{fig/Fig_03.06} 
+
+}
+
+\caption{a) Quando um quadrado é cortado paralelamente ao eixo $x$, o lado AD paralelo ao eixo $y$ gira através de um pequeno ângulo $\phi_1$; (b) quando é cortada paralelamente ao eixo $y$, o lado AB paralelo ao eixo $x$ gira através de um pequeno ângulo $\phi_2$. Em geral, o cisalhamento faz com que ambos os lados girem, dando uma deformação angular total $(\phi_1 + \phi_2)$. Em cada caso, a diagonal AC é estendida.}\label{fig:quadrado}
+\end{figure}
+
+Por causa da deformação de cisalhamento, pontos entre \(A\) e \(D\) experimentam deslocamentos \(x\) maiores quanto mais longe eles estiverem do ponto \(A\). O ponto \(D\) que está a uma distância vertical \(\Delta{y}\) acima de \(A\) é deslocado pela quantidade \((\partial u / \partial y)\Delta{y}\) na direção do eixo \(x\). Isso causa uma rotação no sentido horário do lado \(AD\) através de um pequeno ângulo \(\phi_{1}\) dado por
+
+\begin{equation}
+\tan{\phi_{1}} = \frac {(\partial u/\partial y) \Delta{y}}{\Delta {y}}= \frac{\partial u}{\partial y} \label{eq:0309}
+\end{equation}
+
+Similarmente, o ponto \(A\) é deslocado paralelamente ao eixo \(y\) por uma quantidade \(v\) (Figura \ref{fig:quadrado}.b), enquanto o ponto \(B\) que está a uma distância horizontal \(\Delta x\) de \(A\) é deslocado pela quantidade \((\partial v / \partial x)\Delta x\) na direção do eixo \(y\). Como resultado, o lado \(AB\) gira no sentido anti-horário através de um pequeno ângulo \(\phi_2\) dado por
+
+\begin{equation}
+\tan{\phi_{2}}= \frac {(\partial v/\partial x) \Delta{x}}{\Delta {x}}= \frac {\partial v}{\partial x}\label{eq:0310}
+\end{equation}
+
+A deformação elástica envolve deslocamentos e distorções infinitamente pequenas e, para pequenos ângulos, podemos escrever \(\tan{\phi_ {1}} = {\phi_{1}}\) e \(\tan{\phi_{2}} = {\phi_{2}}\). A deformação de cisalhamento no plano \(xy\) \((\varepsilon_{xy})\) é definida como metade da distorção angular total (Figura \ref{fig:quadrado}.c):
+
+\begin{equation}
+\varepsilon_{xy}= \frac{1}{2} \left(\frac{\partial v}{\partial x} + \frac {\partial u}{\partial y}\right) \label{eq:0311}
+\end{equation}
+
+Transpondo \(x\) e \(y\), e os deslocamentos correspondentes \(u\) e \(v\), a componente de cisalhamento \(\varepsilon_{yx}\) é obtida:
+
+\begin{equation}
+\varepsilon_{yx}= \frac{1}{2} \left(\frac{\partial u}{\partial y} + \frac {\partial v}{\partial x}\right) \label{eq:0312}
+\end {equation}
+
+Isso é idêntico ao \(\varepsilon_{xy}\). A distorção angular total no plano \(xy\) é \((\varepsilon_{xy} + \varepsilon_{yx})= 2\varepsilon_ {xy}=2 \varepsilon_{yx}\). Da mesma forma, as componentes de tensão \(\varepsilon_{yz}\;(=\varepsilon_{zy})\) e \(\varepsilon_{xz}\;(= \varepsilon_{zx})\) são definidos para distorções angulares nos planos \(yz\) e \(zx\), respectivamente.
+
+\begin{equation*}
+\varepsilon_{yz}= \varepsilon_{zy} = \frac{1}{2}\left(\frac{\partial w}{\partial y} + \frac{\partial v}{\partial z}\right)
+\end{equation*}
+
+\begin{equation}
+\varepsilon_{zx}= \varepsilon_{xz} = \frac{1}{2}\left(\frac{\partial u}{\partial z} + \frac{\partial w}{\partial x}\right)\label{eq:0313}
+\end {equation}
+
+As deformações longitudinais e de cisalhamento definem a matriz de deformação 3x3 simétrica
+
+\begin{equation}
+\left[ \begin{array}{lll}{\varepsilon_{x x}} & {\varepsilon_{x y}} & {\varepsilon_{x z}} \\ {\varepsilon_{y x}} & {\varepsilon_{y y}} & {\varepsilon_{y z}} \\ {\varepsilon_{z x}} & {\varepsilon_{z y}} & {\varepsilon_{z z}}\end{array}\right] \label{eq:0314}
+\end{equation}
+
+\hypertarget{constantes-elasticas}{%
+\subsection{Constantes elásticas}\label{constantes-elasticas}}
+
+De acordo com a lei de Hooke, quando um corpo se deforma elasticamente, existe uma relação linear entre deformação e tensão. A relação entre tensão e deformação define uma constante elástica (ou módulo de elasticidade) do corpo. A tensão é em si uma relação de comprimentos e, portanto, sem dimensão. Assim, os módulos elásticos devem ter as unidades de tensão \((\mathrm{N}\,\mathrm{m}^{-2})\). Os módulos elásticos, definidos para diferentes tipos de deformação, são o módulo de Young, o módulo de rigidez e o módulo de incompressibilidade (volume).
+
+O módulo de Young é definido a partir da deformação extensional. Cada deformação longitudinal é proporcional ao componente de tensão correspondente, isto é,
+
+\[
+\sigma_{x x}=E \varepsilon_{x x} \quad \sigma_{y y}=E \varepsilon_{y y}\quad \sigma_{z z}=E \varepsilon_{z z}
+\]
+onde a constante de proporcionalidade, \(E\), é módulo de Yong.
+
+O módulo de rigidez (ou módulo de cisalhamento) é definido a partir da deformação de cisalhamento. Como as deformações longitudinais, a deformação total de cisalhamento em cada plano é proporcional ao componente de tensão de cisalhamento correspondente:
+
+\[
+\sigma_{x y}=2 \mu \varepsilon_{x y} \quad \sigma_{y z}=2 \mu \varepsilon_{y z} \quad \sigma_{z x}=2 \mu \varepsilon_{z x}
+\]
+onde a consatnte de proporcionalidae, \(\mu\), é o módulo de rigidez e o fator \(2\) surge como explicado nas equações \eqref{eq:0311} e \eqref{eq:0312}.
+
+O módulo de incompressibilidade (ou de volume) é definido a partir da dilatação experimentada por um corpo sob pressão hidrostática. As componentes de cisalhamento da tensão são zero para condições hidrostáticas \((\sigma_{xy}=\sigma_{yz}=\sigma_{zx}=0)\), e a pressão interna (tensão normal negativa) é igual em todas as direções \((\sigma_{xx}=\sigma_{yy}=\sigma_{zz}= -p)\). O módulo de incompressibilidade, \(K\), é a relação entre a pressão hidrostática e a dilatação, isto é,
+
+\[
+p=-K \theta
+\]
+O inverso do módulo de incompressibilidade \((K^{-1})\) é chamada de \emph{compressibilidade}.
+
+\hypertarget{ondas-sismicas}{%
+\section{Ondas sísmicas}\label{ondas-sismicas}}
+
+\hypertarget{introducao-2}{%
+\subsection{Introdução}\label{introducao-2}}
+
+A propagação de um distúrbio sísmico através de um meio heterogêneo é extremamente complexa. Para derivar as equações que descrevam adequadamente a propagação, é necessário fazer suposições simplificadoras. A heterogeneidade do meio é frequentemente modelada dividindo-a em camadas paralelas, em cada uma das quais condições homogêneas são assumidas. Por escolha adequada da espessura, densidade e propriedades elásticas de cada camada, as condições reais podem ser aproximadas. O pressuposto mais importante sobre a propagação de um distúrbio sísmico é que ele viaja por deslocamentos elásticos no meio. Esta condição certamente não se aplica perto da fonte sísmica. Em ou perto de um foco de terremoto ou o ponto de tiro de uma explosão controlada, o meio é destruído. As partículas do meio são deslocadas permanentemente de seus vizinhos; a deformação é anelástica. No entanto, quando um distúrbio sísmico percorreu uma certa distância de sua fonte, sua amplitude diminui e o meio se deforma elasticamente para permitir sua passagem. As partículas do meio realizam movimentos harmônicos simples, e a energia sísmica é transmitida como um conjunto complexo de movimentos de ondas. Quando a energia sísmica é liberada repentinamente em um ponto \({P}\) próximo à superfície de um meio homogêneo (Figura \ref{fig:propagacao}), parte da energia se propaga através do corpo do meio como ondas sísmicas do corpo. A parte restante da energia sísmica se espalha pela superfície como uma onda de superfície sísmica, análoga às ondulações na superfície de uma poça de água na qual uma pedra foi lançada.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{fig/Fig_03.09} 
+
+}
+
+\caption{Propagação de um distúrbio sísmico de uma fonte pontual $P$ perto da superfície de um meio homogêneo; a perturbação viaja como uma onda do corpo através do meio e como uma onda de superfície ao longo da superfície livre.}\label{fig:propagacao}
+\end{figure}
+
+\hypertarget{ondas-sismicas-de-corpo}{%
+\subsection{Ondas Sísmicas de Corpo}\label{ondas-sismicas-de-corpo}}
+
+Quando uma onda de corpo atinge uma distância \({r}\) de sua fonte em um meio homogêneo, a frente de onda (definida como a superfície na qual todas as partículas vibram com a mesma fase) tem uma forma esférica, e a onda é chamada de onda esférica. À medida que a distância da fonte aumenta, a curvatura da frente de onda esférica diminui. A grandes distâncias da fonte, a frente de onda é tão plana que pode ser considerada como um plano e a onda sísmica é chamada de onda plana. A direção perpendicular à frente de onda é chamada de caminho do raio sísmico. A descrição do movimento harmônico em ondas planas é mais simples do que para ondas esféricas, porque para ondas planas podemos usar coordenadas cartesianas ortogonais. Mesmo para as ondas planas, a descrição matemática dos deslocamentos tridimensionais da onda do corpo da frente de onda do meio é bastante complexa. No entanto, podemos aprender bastante sobre propagação de ondas do corpo a partir de uma descrição mais simples e menos rigorosa.
+
+\hypertarget{ondas-de-compressao}{%
+\subsection{Ondas de compressão}\label{ondas-de-compressao}}
+
+Sejam os eixos de referência cartesiana definidos de modo que o eixo \({x}\) seja paralelo à direção de propagação da onda plana; os eixos \({y}\) e \({z}\), então, estão no plano da frente de onda (Figura \ref{fig:raioonda}). Uma vibração generalizada do meio pode ser reduzida a componentes paralelas a cada um dos eixos de referência. Na direção \(x\), o movimento da partícula volta e avança paralelo à direção de propagação.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/Fig_03.10} 
+
+}
+
+\caption{Representação de uma vibração generalizada como componentes paralelas a três eixos de referência ortogonais. O movimento de partículas na direção $x$ é para a frente e para trás paralelo à direção de propagação, correspondente à onda P. As vibrações ao longo dos eixos $y-$ e $z-$ estão no plano da frente de onda e são normais na direção da propagação. A vibração $z$ em um plano vertical corresponde à onda $SV$; a vibração $y$ é horizontal e corresponde à onda $SH$.}\label{fig:raioonda}
+\end{figure}
+
+Isso resulta no meio sendo alternadamente esticado e condensado nessa direção (Figura \ref{fig:particula}a). Este movimento harmônico produz uma onda corporal que é transmitida como uma seqüência de rarefações e condensações paralelas ao eixo \({x}\).
+
+Considere a perturbação do meio mostrado na Figura \ref{fig:particula}b. A área da frente de onda normal à direção \(x\) é \(A_x\) e a propagação da onda é tratada como unidimensional. Em uma posição arbitrária \(x\) (Figura \ref{fig:particula}c), a passagem da onda produz um deslocamento \(u\) e uma força \(F_{x}\) na direção \(x\). Na posição \(x+dx\) o deslocamento é \(u+du\) e a força é \(F_x + dF_x\). Aqui \(dx\) é o comprimento infinitesimal de um pequeno elemento de volume que tem massa \(\rho dx A_x\). A força resultante que atua sobre este elemento na direção \(x\) é dada por
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{fig/Fig_03.11} 
+
+}
+
+\caption{(a) O movimento de partículas em uma onda P unidimensional transmite energia como uma seqüência de rarefações $(R)$ e condensações $(C)$ paralelas ao eixo $x$. (b) Dentro da frente de onda, a componente da força $F_x$ na direção $x$ da propagação é distribuído sobre um elemento da área $A_x$ normal ao eixo $x$. (c) Uma partícula na posição $x$ experimenta um deslocamento longitudinal $u$ na direção $x$, enquanto na posição próxima $x+dx$ o deslocamento correspondente é $u+ du$.}\label{fig:particula}
+\end{figure}
+
+\begin{equation}
+\left(F_{x}+\mathrm{d} F_{x}\right)-F_{x}=\mathrm{d} F_{x}=\frac{\partial F_{x}}{\partial x} \mathrm{d} x \label{eq:0315}
+\end{equation}
+
+A força \(F_x\) é causada pelo elemento de tensão \(\sigma_{xx}\) atuando sobre a área \(A_x\) e é igual a \(\sigma_{xx}A_x\). Isto nos permite escrever a equação unidimensional do movimento
+
+\begin{equation}
+\left(\rho \mathrm{d} x A_{x}\right) \frac{\partial^{2} u}{\partial t^{2}}=\mathrm{d} x A_{x} \frac{\partial \sigma_{x x}}{\partial x} \label{eq:0316}
+\end{equation}
+
+Usando as definições do módulo de Young \((E)\) e a deformação normal \(\varepsilon_{xx}\) temos que, para uma deformação unidimensional
+
+\begin{equation}
+\sigma_{x x}=E \varepsilon_{x x}=E \frac{\partial u}{\partial x}  \label{eq:0317}
+\end{equation}
+
+Substituindo a Equação \eqref{eq:0317} na Equação \eqref{eq:0316} dá a equção da onda unidimensional
+
+\begin{equation}
+\frac{\partial^{2} u}{\partial t^{2}}=V^{2} \frac{\partial^{2} u}{\partial x^{2}}  \label{eq:0318}
+\end{equation}
+
+onde \(V\) é a velocidade da onda, dada por
+
+\begin{equation}
+V=\sqrt{\frac{E}{\rho}}  \label{eq:0319}
+\end{equation}
+
+em que a constante de proporcionalidade, \(E\), é módulo de Yong e \(\rho\) é a dendidade do meio.
+
+Uma onda unidimensional é bastante restritiva. Ele representa o alongamento e a compressão na direção \(x\) como efeitos independentes do que acontece nas direções \(y\) e \(z\). Em um sólido elástico, as deformações elásticas em qualquer direção são acopladas às deformações transversais pela razão de Poisson para o meio. Uma análise tridimensional leva em conta as mudanças simultâneas perpendiculares à direção da propagação. Neste caso, a área \(A_x\) não pode mais ser considerada constante. Em vez de olhar para os deslocamentos em apenas uma direção, todos os três eixos devem ser levados em conta. Isto é conseguido através da análise das mudanças no volume. A onda do corpo longitudinal (ou compressional) passa por um meio como uma série de dilatações e compressões. A equação da onda de compressão na direção \(x\) é
+
+\begin{equation}
+\frac{\partial^{2} \theta}{\partial t^{2}}=\alpha^{2} \frac{\partial^{2} \theta}{\partial x^{2}} \label{eq:0320}
+\end{equation}
+
+onde \(\alpha\) é a velocidade da onda e é dada por
+
+\begin{equation}
+\alpha=\sqrt{\frac{\lambda+2 \mu}{\rho}}=\sqrt{\frac{K+\frac{4}{3} \mu}{\rho}} \label{eq:0321}
+\end{equation}
+
+A onda longitudinal é a mais rápida de todas as ondas sísmicas. Quando ocorre um terremoto, essa onda é a primeira a chegar a uma estação de gravação. Como resultado, é chamado de \emph{onda primária} ou onda \(P\). A Equação \eqref{eq:0321} mostra que as ondas \(P\) podem viajar através de sólidos, líquidos e gases, todos os quais são compressíveis \((K\neq 0)\). Líquidos e gases não permitem cisalhamento. Consequentemente, \(\mu=0\), e a velocidade da onda de compressão em um líquido ou gás é dada por
+
+\begin{equation}
+\alpha=\sqrt{\frac{K}{\rho}} \label{eq:0322}
+\end{equation}
+
+\hypertarget{ondas-transversais}{%
+\subsection{Ondas transversais}\label{ondas-transversais}}
+
+As vibrações ao longo dos eixos \(y\) e \(z\) (Figura \ref{fig:raioonda}) são paralelas à frente de onda e transversais à direção de propagação. Se desejarmos, podemos combinar os componentes \(y\) e \(z\) em um único movimento transversal. É mais conveniente, no entanto, analisar os movimentos nos planos vertical e horizontal separadamente. Aqui nós discutimos a perturbação no plano vertical definido pelos eixos \(x\) e \(z\); uma descrição análoga aplica-se ao plano horizontal.
+
+O movimento das ondas transversais é semelhante ao observado quando uma corda é sacudida. Os planos verticais movem-se para cima e para baixo e os elementos adjacentes do meio experimentam distorções na forma (Figura \ref{fig:cisa}a), mudando repetidamente de um retângulo para um paralelogramo e vice-versa. Elementos adjacentes do meio sofrem cisalhamento vertical.
+
+Considere a distorção de um elemento delimitado por planos verticais separados por uma pequena distância horizontal \(dx\) (Figura \ref{fig:cisa}b) em uma posição horizontal arbitrária \(x\). A passagem de uma onda na direção \(x\) produz um deslocamento \(w\) e uma força \(F_z\) na direção \(z\). Na posição \(x+dx\) o deslocamento é \(w+dw\) e a força é \(F_z+dF_z\). A massa do pequeno elemento de volume delimitado pelos planos verticais é \(\rho dxA_x\), onde \(A_x\) é a área do plano delimitador. A força resultante que atua sobre este elemento na direção \(z\) é dada por
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{fig/Fig_03.12} 
+
+}
+
+\caption{(a) Distorção de cisalhamento causada pela passagem de uma onda $S$ unidimensional. (b) Deslocamentos e forças na direção $z$ nas posições $x$ e $x+dx$ delimitando um pequeno elemento cisalhado.}\label{fig:cisa}
+\end{figure}
+
+\begin{equation}
+\left(F_{z}+\mathrm{d} F_{z}\right)-F_{z}=\mathrm{d} F_{z}=\frac{\partial F_{z}}{\partial x} \mathrm{d} x \label{eq:0323}
+\end{equation}
+
+A força \(F_z\) surge da tensão de cisalhamento \(\sigma_{xz}\) na área \(A_x\) e é igual a \(\sigma_{xz} A_x\). A equação de movimento do elemento em cisalhamento verticalmente é
+
+\begin{equation}
+\left(\rho \mathrm{d} x A_{x}\right) \frac{\partial^{2} w}{\partial t^{2}}=\mathrm{d} x A_{x} \frac{\partial \sigma_{x z}}{\partial x} \label{eq:0324}
+\end{equation}
+
+Agora temos que modificar a expressão de Lamé para a lei de Hooke e a definição de tensão de cisalhamento de modo que eles se apliquem à passagem de uma onda de cisalhamento unidimensional na direção \(x\). Nesse caso, como as áreas dos paralelogramos entre os planos verticais adjacentes são iguais, não há alteração de volume. A dilatação \(\theta\) é zero, e a lei de Hooke é dada:
+
+\begin{equation}
+\sigma_{x z}=2 \mu \varepsilon_{x z} \label{eq:0325}
+\end{equation}
+
+Seguindo a definição de componentes de tensão de cisalhamento, nós temos
+
+\begin{equation}
+\varepsilon_{x z}=\frac{1}{2}\left(\frac{\partial w}{\partial x}+\frac{\partial u}{\partial z}\right) \label{eq:0326}
+\end{equation}
+
+Para uma onda de cisalhamento unidimensional, não há mudança na distância \(dx\) entre os planos verticais; \(du\) e \(\partial u / \partial z\) são zero e \(\varepsilon_{x z}\) é igual a \((\partial w / \partial x) / 2\). Em substituição na Equação \eqref{eq:0326} isso dá
+
+\begin{equation}
+\sigma_{x z}=\mu \frac{\partial w}{\partial x} \label{eq:0327}
+\end{equation}
+
+e em substituição adicional na Equação \eqref{eq:0324} e rearranjo os termos obtemos
+
+\begin{equation}
+\frac{\partial^{2} w}{\partial t^{2}}=\beta^{2} \frac{\partial^{2} w}{\partial x^{2}} \label{eq:0328}
+\end{equation}
+
+onde \(\beta\) é a velocidade da onda de cisalhamento, dado por
+
+\begin{equation}
+\beta=\sqrt{\frac{\mu}{\rho}} \label{eq:0329}
+\end{equation}
+
+A única propriedade elástica que determina a velocidade da onda de cisalhamento é a rigidez ou o módulo de cisalhamento, \(\mu\). Em líquidos e gases, \(\mu\) é zero e as ondas de cisalhamento não podem se propagar. Em sólidos, uma comparação rápida de Equações \eqref{eq:0321} e \eqref{eq:0329} dá
+
+\begin{equation}
+\alpha^{2}-\frac{4}{3} \beta^{2}=\frac{K}{\rho}  \label{eq:0330}
+\end{equation}
+
+Por definição, o módulo de bulk \(K\) é positivo (se fosse negativo, um aumento na pressão de confinamento causaria um aumento no volume) e, portanto, \(\alpha\) é sempre maior que \(\beta\). Ondas de cisalhamento de um terremoto viajam mais lentamente que as ondas \(P\) e são registradas em uma estação de observação como chegadas posteriores. Ondas de cisalhamento são geralmente chamadas de ondas secundárias ou ondas \(S\).
+
+\hypertarget{sismologia-do-terremoto}{%
+\section{Sismologia do terremoto}\label{sismologia-do-terremoto}}
+
+\hypertarget{introducao-3}{%
+\subsection{Introdução}\label{introducao-3}}
+
+A maioria dos terremotos que sacodem a Terra a cada ano são tão fracos que só são registrados por sismógrafos sensíveis, mas alguns são fortes o suficiente para ter consequências sérias e até mesmo catastróficas para a humanidade e o meio ambiente. Cerca de \(90\%\) de todos os terremotos resultam de eventos tectônicos, principalmente movimentos de falhas. Os \(10\%\) restantes estão relacionados a vulcanismo, colapso de cavidades subterrâneas ou efeitos provocados pelo homem.
+
+Nossa compreensão dos processos que levam a terremotos deriva em grande parte das observações de eventos sísmicos na falha de San Andreas, na Califórnia. O movimento relativo médio das placas adjacentes à falha de San Andreas é de cerca de 5 cm por ano, com o bloco a oeste da falha movendo-se para o norte. No plano da falha em si, esse movimento não é contínuo, mas ocorre espasmodicamente. De acordo com a moderna teoria tectônica de placas, este sistema de falhas extensivamente estudado é uma falha de transformação. Este é um tipo bastante especial, portanto, não se pode presumir que as observações relacionadas à falha de San Andreas sejam aplicáveis sem reservas a todas as outras falhas. No entanto, o \emph{modelo de rebote elástico}, proposto por H. F. Reid após o terremoto de 1906 em San Francisco, é um guia útil sobre como um terremoto pode ocorrer.
+
+O modelo é ilustrado na Figura \ref{fig:rebote} pelas mudanças em cinco linhas paralelas, desenhadas normal ao traço da falha no estado sem restrições e cruzando-a nos pontos \(A–E\). A tensão devido ao movimento relativo dos blocos adjacentes à falha acumula-se ao longo de vários anos. Longe do traço da falha, as cinco linhas permanecem retas e paralelas, mas perto delas elas são dobradas. Quando o ponto de ruptura das rochas crustais em \(C\) é excedido, a ruptura ocorre e há um deslocamento violento no plano de falha. O deslocamento relativo que vem ocorrendo progressivamente entre as placas adjacentes durante anos ou décadas é alcançado no plano da falha em poucos segundos. As rochas tensas adjacentes à falha ``ressalta'' repentinamente. A energia de deformação acumulada é liberada com a velocidade sísmica das rochas rompidas, que é de vários quilômetros por segundo. Os segmentos \(BC\) e \(C'D\) sofrem compressão, enquanto \(CD\) e \(BC'\) experimenta dilatação. Os pontos \(A\) e \(E\) não se movem; a energia de tensão armazenada nesses pontos não é liberada. O comprimento total do plano de falha não é deslocado, apenas a região na qual o ponto de ruptura foi excedido. Quanto maior o comprimento do plano de falha que é ativado, maior é o terremoto subsequente.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{fig/Fig_03.15} 
+
+}
+
+\caption{Modelo elástico de rebote da origem dos terremotos: (a) estado irrestrito de um segmento de falha, (b) acúmulo de deformação perto da falha devido ao movimento relativo dos blocos crustais adjacentes, e (c) “ressalto” do segmento esticado como um terremoto com acompanhamento da liberação de energia sísmica.}\label{fig:rebote}
+\end{figure}
+
+A ocorrência de um grande terremoto não é necessariamente tão abrupta quanto descrita no parágrafo anterior, embora possa ser muito repentina. Em 1976, um grande terremoto de magnitude 7,8 atingiu uma área densamente povoada do norte da China, perto da cidade de Tangshan. Embora houvesse falhas conhecidas na área, elas estavam sísmicamente inativas há muito tempo, e o grande terremoto ocorreu sem aviso prévio. Quando ocorre um terremoto, a maior parte da energia armazenada é liberada no choque principal. No entanto, durante semanas ou meses após um grande terremoto, pode haver vários choques menores, conhecidos como réplicas, alguns dos quais podem ser comparáveis em tamanho ao terremoto principal. Estruturas enfraquecidas pelo evento principal frequentemente colapsam em grandes choques posteriores, o que pode causar danos físicos tão graves quanto o choque principal. O número de vítimas de tremores secundários provavelmente será menor, porque as pessoas evacuaram as estruturas danificadas.
+
+Embora, na verdade, o terremoto envolva uma parte do plano de falhas medindo muitos quilômetros quadrados de área, do ponto de vista de um observador a uma distância de centenas ou mesmo milhares de quilômetros, o terremoto parece acontecer em um ponto. Esse ponto é chamado de foco ou hipocentro do terremoto (Figura \ref{fig:epicentro}). Geralmente ocorre em uma profundidade focal a muitos quilômetros abaixo da superfície da Terra. O ponto na superfície da Terra verticalmente acima do foco é chamado de epicentro do terremoto.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{fig/Fig_03.16} 
+
+}
+
+\caption{Seção vertical perpendicular ao plano normal da falha, definindo o epicentro e o hipocentro (foco) de um terremoto.}\label{fig:epicentro}
+\end{figure}
+
+\hypertarget{localizacao-do-epicentro-de-um-terremoto}{%
+\subsection{Localização do epicentro de um terremoto}\label{localizacao-do-epicentro-de-um-terremoto}}
+
+A distância de uma estação sísmica a partir do epicentro de um terremoto (a distância epicentral) pode ser expressa em quilômetros \(\Delta_{km}\) ao longo da superfície, ou pelo ângulo \(\Delta^\circ=(180/\pi)(\Delta_{km}/R)\) subentendido no centro da Terra. Os tempos de viagem das ondas \(P\) e \(S\) de um terremoto através do corpo da Terra até um observador dependem da distância epicentral (Fig. 3.30a). Os gráficos do tempo de trânsito versus distância não são lineares, porque os trajetos dos raios das ondas viajando para sismógrafos distantes são curvos. No entanto, o perfil de velocidade sísmica padrão do interior da Terra é bem conhecido que os tempos de trânsito para cada tipo de onda podem ser tabulados ou representados graficamente em função da distância epicentral. Ao calcular a distância epicentral dos dados sísmicos, o tempo total de viagem não é conhecido a princípio, porque um observador raramente está no epicentro para registrar a hora exata da ocorrência \(t_0\) do terremoto. Entretanto, a diferença nos tempos de viagem para as ondas \(P\) e \(S\) \((t_s - t_p)\) pode ser obtida diretamente do sismograma; e ela aumenta com o aumento da distância epicentral (Figura \ref{fig:transitoPS}a).
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{fig/Fig_03.17} 
+
+}
+
+\caption{(a) Tempos de trânsito das ondas $P$ e $S$ de um terremoto através da Terra para um observador a distâncias epicentrais até $90^\circ$. A distância epicentral $(\Delta)$ do terremoto é encontrada a partir da diferença nos tempos de viagem $(t_s - t_p)$. (b) diagrama de Wadati para determinar o tempo de ocorrência de um terremoto.}\label{fig:transitoPS}
+\end{figure}
+
+Para terremotos locais, podemos supor que as velocidades sísmicas \(\alpha\) e \(\beta\) são razoavelmente constantes nas camadas próximas da superfície. O momento em que ocorreu o terremoto, \(t_0\), pode ser obtido plotando as diferenças \((t_s - t_p)\) contra os tempos de chegada \(t_p\) da onda \(P\) em diferentes estações. O plot, chamado diagrama de Wadati, é uma linha reta (Figura \ref{fig:transitoPS}b). Se \(D\) é a distância percorrida pela onda sísmica, os tempos de percurso das ondas \(P\) e \(S\) são respectivamente \(t_p=D/\alpha\) e \(t_s= D/\beta\), assim
+
+\begin{equation}
+t_{\mathrm{s}}-t_{\mathrm{p}}=D\left(\frac{1}{\beta}-\frac{1}{\alpha}\right)=t_{\mathrm{p}}\left(\frac{\alpha}{\beta}-1\right)  \label{eq:0331}
+\end{equation}
+
+A interceção \(t_0\) da reta com o eixo chegada-tempo é o tempo de ocorrência do terremoto e a inclinação da linha é \([(\alpha/\beta)-1]\). Conhecendo a velocidade da onda \(P\) \(\alpha\), a distância até o terremoto é obtida a partir de \(D=\alpha(t_p - t_0)\).
+
+Para determinar a localização de um terremoto, os tempos de percurso do epicentro das ondas \(P\) e \(S\) para pelo menos três estações sísmicas são necessários (Figura \ref{fig:terremoto}). Os dados de uma estação dão apenas a distância do epicentro daquela estação. Podia estar em qualquer lugar em um círculo centrado na estação. Os dados de uma estação adicional definem um segundo círculo que intercepta o primeiro círculo em dois pontos, cada um dos quais poderia ser o verdadeiro epicentro. Os dados de uma terceira estação removem a ambiguidade: o ponto comum de interseção dos três círculos é o epicentro.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{fig/Fig_03.18} 
+
+}
+
+\caption{Localização de um epicentro sísmico utilizando distâncias epicentrais de três estações sísmicas (em A, B e C). A distância epicentral de cada estação define o raio de um círculo centrado na estação. O epicentro (triângulo) está localizado na interseção comum dos círculos; sua aparência oval é devida à projeção do mapa.}\label{fig:terremoto}
+\end{figure}
+
+\hypertarget{estrutura-interna-da-terra}{%
+\section{Estrutura interna da Terra}\label{estrutura-interna-da-terra}}
+
+Neste tópico, seguimos literalmente o ótimo livro de \citet{Ribeiro2018} com os seguintes temas:
+
+\hypertarget{ondas-sismicas-e-o-interior-da-terra}{%
+\subsection{Ondas sísmicas e o interior da Terra}\label{ondas-sismicas-e-o-interior-da-terra}}
+
+A estrutura do interior da Terra começou a ser desvendada a partir do início do século XX quando se reconheceu ser possível estimar a variação da velocidade das ondas sísmicas como função da profundidade no interior da Terra. Uma vez que as velocidades das ondas sísmicas são definidas pela densidade e pelos parâmetros elásticos do material atravessado pelas ondas, é possível, utilizando os resultados da teoria da elasticidade, estimar a variação desses parâmetros também em função da profundidade no interior da Terra. Uma vez estimados esses parâmetros, pode-se inferir a distribuição de massa e de pressão no interior do planeta.
+
+A interpretação desses resultados, junto com outras fontes de informação igualmente importantes, permitiu estabelecer um modelo detalhado da estrutura e da composição interna da Terra. Por volta da década de 1940 esse modelo já apresentava um grau de detalhamento bastante grande. No entanto, o modelo continua sendo aprimorado até hoje.
+
+\hypertarget{modelos}{%
+\subsection{Modelos}\label{modelos}}
+
+Um médico, quando interpreta uma chapa de raios X, observa as variações de atenuação que um feixe desse tipo de radiação sofre ao atravessar o corpo do paciente. Essas variações de atenuação se manifestam na variação da transparência do filme radiográfico utilizado, que representa projeções de uma estrutura tridimensional que se superpõem em um único plano. A interpretação dessa observação é feita com base no conhecimento que o médico tem da anatomia humana e das suas variações em função de diferentes patologias. Quando Wilhelm Conrad Röntgen, em 1895, viu a primeira radiografia, feita por ele mesmo da mão da Sra. Röntgen, não teve dificuldade em reconhecer os ossos da mão, mas ficou nisso. Com o passar do tempo, a comparação das chapas feitas em muitos e diferentes pacientes com observações clínicas permitiu aos médicos estabelecer os critérios de interpretação para esse tipo de exame.
+
+Os geofísicos desvendaram a estrutura do interior da Terra de forma, até certo ponto, análoga. A observação básica feita pelos geofísicos é o que se chama tempo de percurso de uma onda sísmica, definido como sendo o intervalo de tempo necessário para que as ondas sísmicas percorram a distância que separa o epicentro do terremoto do ponto da superfície onde elas são registradas através de um sismógrafo. O número de observações de tempo de percurso que podem ser feitas depende da frequência com que os terremotos ocorrem na Terra, que é muito grande. Entre 1900 e 2000 foram registrados 699.049 terremotos de magnitude \(m_b\) maior do que 5. A distribuição desses eventos não é, como já foi mencionado antes, homogênea sobre a superfície da Terra, o que pode introduzir algum viés na observação. Além disso, as observações dependem do número de estações sísmicas existentes. Hoje em dia existem cerca de 11.956 estações catalogadas, fornecendo dados para os principais bancos de dados sísmicos. Essas estações também não são homogeneamente distribuídas na superfície da Terra, mas, de qualquer forma, existe um número muito grande de observações disponíveis para se investigar o interior do planeta.
+
+A interpretação das observações sísmicas é, no entanto, feita em uma base muito diferente da interpretação de uma chapa de raios X. Enquanto a medicina tem acesso direto ao interior do corpo humano, a Terra não permite quase nenhuma intimidade com o geofísico. Com a exceção de observações feitas em umas poucas perfurações com profundidades da ordem de 10km, o interior da Terra é essencialmente inatingível a qualquer tipo de observação direta. Como consequência, os geofísicos são forçados a criar modelos sobre o interior da Terra.
+
+Nas ciências naturais, modelos são abstrações feitas com o objetivo de permitir o estudo de sistemas naturais que são conhecidos de forma parcial e empírica. Os modelos devem explicar de forma lógica e coerente a essência do comportamento de um sistema natural em condições conhecidas, e fornecer previsões sobre o comportamento desse sistema em situações novas e não observadas. Com o termo ``essência do comportamento'' queremos dizer que os modelos não precisam ser perfeitos em todos os aspectos, mas devem reter aqueles aspectos do fenômeno estudado, que são mais importantes em um determinado estágio de conhecimento. Quando as previsões são confirmadas, o modelo é mantido; mas, se as previsões não se concretizam ou aspectos inicialmente não considerados essenciais demonstram a sua relevância, os modelos devem ser alterados.
+
+Um exemplo simples de modelo pode ser dado pela forma da Terra. Na descrição do movimento da Terra ao redor do Sol, a forma da Terra pode ser considerada uma esfera perfeita, embora ela não o seja, como todos sabem. A superfície da Terra tem uma topografia variável e a superfície de uma esfera não tem topografia alguma. No entanto, considerando as maiores profundidades dos oceanos e as maiores alturas das cordilheiras, a variação de topografia da Terra não supera \(15\,\mathrm{km}\) ou \(16\,\mathrm{km}\). Comparada com o raio médio da Terra \((6.371\,\mathrm{km})\), a diferença máxima de topografia é uma fração muito pequena \(-0.0025\), distribuída ao longo de milhares de quilômetros quadrados, o que impõe, pelo menos na maior parte da superfície, uma certa suavidade.
+
+A rotação da Terra faz com que ela tenha o raio equatorial \((6.378\,\mathrm{km})\) ligeiramente maior do que o raio polar \((6.357\,\mathrm{km})\). A diferença entre o raio equatorial e o raio polar em relação ao raio médio é \(0.0033\), ou seja, da mesma ordem de grandeza que a diferença máxima de topografia. Hélio, o deus Sol, que vê e sente os efeitos gravitacionais dos domínios de Gaia, a deusa Terra, a uma distância de 150 milhões de quilômetros, certamente a imagina com a forma de uma pequena, perfeita e homogênea esfera. Por outro lado, se Hélio resolvesse passear em um satélite artificial girando ao redor da Terra a uma altura de \(600\,\mathrm{km}\) acima da superfície, a descrição da forma do planeta como uma esfera seria insatisfatória. No mínimo, mesmo considerando a possibilidade de o deus Sol ser pouco atento, a forma de um elipsoide de rotação teria de ser considerada, porque a órbita do satélite é afetada pelas diferenças do campo de gravidade geradas, entre outras causas, pelo afastamento da forma esférica.
+
+Os primeiros modelos feitos para interpretar a estrutura da Terra, a partir dos dados de tempo de percurso, consideram a Terra como uma esfera onde a densidade e os parâmetros elásticos variam exclusivamente como função da profundidade. No entanto, antes de descrever esse tipo de modelo e os motivos que levaram à sua concepção, há um aspecto da física das ondas que deve ser considerado.
+
+\hypertarget{construcao-de-frentes-de-onda-e-tracado-de-raios-sismicos-o-principio-de-huygens-e-o-principio-de-fermat}{%
+\subsection{Construção de frentes de onda e traçado de raios sísmicos -- o princípio de Huygens e o princípio de Fermat}\label{construcao-de-frentes-de-onda-e-tracado-de-raios-sismicos-o-principio-de-huygens-e-o-principio-de-fermat}}
+
+Um pedaço de madeira comprido, movimentado de forma cíclica e lenta dentro de um tanque de lavar roupa ou de uma caixa de plástico retangular não muito pequena, produz uma sequência ou, como se diz algumas vezes, um trem de ondas na superfície da água, que, com boa aproximação, representam ondas planas. Quanto mais o comprimento do pedaço de madeira for próximo da dimensão de um dos lados do tanque, mais a onda produzida se aproxima de uma onda plana.
+
+Se no caminho do trem de ondas planas for interposto um obstáculo, por exemplo, um pedaço de papelão grosso com uma abertura pequena na altura do nível da água, o trem de onda plana é refletido, com exceção de um pedaço da frente de onda que atravessa a abertura. O termo ``abertura pequena'' deve ser entendido como a abertura sendo bem menor do que o comprimento de onda da onda gerada. A fração da frente de onda que passa para o lado oposto do obstáculo (Figura \ref{fig:usp0401}) perde o caráter de onda plana, tornando-se uma onda com aspecto circular. Se o anteparo for substituído por outro com duas aberturas iguais afastadas uma da outra, duas frentes de onda com o mesmo aspecto circular serão geradas por cada abertura.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{fig/figU01} 
+
+}
+
+\caption{Esquema de tanque com água para demonstrar a formação de ondas secundárias. Um trem de ondas planas incide sobre um anteparo rígido com uma pequena fenda central. Essa fenda atua como fonte pontual que gera ondas secundárias circulares na região posterior ao anteparo. Na figura da direita um espelho permite visualizar em um anteparo branco as ondas produzidas.}\label{fig:usp0401}
+\end{figure}
+
+Fixando, por cima do tanque, um fio fino esticado paralelamente ao anteparo, fica marcada uma distância do anteparo. Olhando as frentes de onda geradas no mesmo instante em cada abertura, percebe-se que elas passam pelo fio também no mesmo instante. Se o anteparo tivesse três aberturas, o mesmo resultado seria observado. Por outro lado, se a posição do anteparo for marcada por outro fio esticado e o anteparo for removido, é possível verificar que a frente de onda plana percorre a distância entre os fios no mesmo intervalo de tempo que as ondas produzidas nas aberturas. Isso significa que a presença do anteparo não altera a velocidade da onda.
+
+Esses resultados sugerem algo que foi percebido pela primeira vez por Christiaan Huygens no final do século XVII. Huygens estudando a propagação da luz, propôs um princípio que leva o seu nome. O princípio de Huygens estabelece cada ponto de uma frente de onda se comporta como uma fonte pontual que gera novas ondas, chamadas de ondas secundárias, e que se propagam em todas as direções com a velocidade da onda naquele ponto. Huygens era um defensor da teoria ondulatória da luz e se referia, ao propor o se princípio, a ondas de luz, mas o princípio se aplica a qualquer tipo de onda. Considerando a frente de onda em um determinado instante \(t_0\) , a frente de onda em um instante posterior \(t_1\) pode ser obtida, traçando uma linha, ou uma superfície no caso de ondas em três dimensões, que é tangente a todas as frentes de onda das ondas secundárias em \(t_0\). A linha ou a superfície tangente às frentes de onda envolve as ondas secundárias e, por isso, recebe o nome de envoltória das ondas secundárias. A Figura \ref{fig:usp0402} ilustra como o princípio de Huygens é aplicado para construir uma frente de onda.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.6\linewidth]{fig/figU02} 
+
+}
+
+\caption{Aplicação do princípio de Huygens na construção de uma frente de onda. Entre os instantes $t_0$ e $t_0 + 5\Delta t$ a onda se propaga em um meio com velocidade constante $v$. As frentes de onda circulares representadas no diagrama têm raio igual a $v\Delta t$ e a envoltória dessas frentes é uma linha reta que representa uma onda plana. A partir de $t_0 + 6\Delta t$ a velocidade deixa de ser constante e é definida na inserção na parte superior da figura. A aplicação do princípio de Huygens gera uma onda distorcida, na parte central do trem de onda.}\label{fig:usp0402}
+\end{figure}
+
+A \ref{fig:usp0402} representa a propagação de uma onda em duas dimensões, de forma que a frente de onda é representada por uma linha. Na figura, a posição de uma mesma frente de onda é indicada para diferentes instantes contados a partir de \(t_0\) e separados por um intervalo de tempo \(\Delta t\). Impondo que a frente de onda no instante \(t_0\) seja uma linha reta e que a velocidade da onda em todos os pontos atingidos pela frente de onda seja constante \((v)\), a frente de onda no instante seguinte pode ser obtida aplicando-se o princípio de Huygens. Por cada ponto da frente de onda em \(t_0\) traça-se uma circunferência, cujo raio é \(v\Delta t\). Traçando uma linha tangente a todas as frentes de onda secundárias obtém-se a frente de onda em \(t_0 +\Delta t\). É fácil ver que, nesse caso, a envoltória das frentes de onda secundária é uma linha reta paralela a frente de onda em to. Mais do que isso, a onda se propaga na direção perpendicular á frente de onda, sendo, portanto, uma onda plana. Na \ref{fig:usp0402} nada se altera até a frente de onda correspondente ao instante \(t_0 +5\Delta t\).
+
+A partir da posição correspondente ao instante \(t_0 +5\Delta t\), a velocidade das ondas secundárias deixa de ser constante e passa a ser dada pelo perfil representado na inserção da Figura \ref{fig:usp0402}. A mudança brusca no comportamento da velocidade da onda gera mais de um efeito, como se verá mais adiante. No entanto, o que importa agora é a forma da frente de onda que avança pelo meio.
+
+Aplicando o princípio de Huygens, a posição da frente de onda no instante \(t_0 +5\Delta t\) é construída traçando, por cada ponto da frente de onda \(t_0 +5\Delta t\), circunferências com raio \(v(p)\Delta t\), onde \(p\) indica que é a velocidade da onda no ponto considerado. Como agora as velocidades são diferentes, os raios são diferentes e a linha tangente deixa de ser reta. À medida que o tempo passa, aumenta a distorção da frente de onda em relação ao que seria a frente de onda de uma onda plana, e a direção de propagação da onda se altera a cada instante e também para cada ponto.
+
+Logo nos primórdios da Física como ciência bem estabelecida e tal qual a conhecemos hoje, os fenômenos ópticos começaram a ser estudados com algum detalhe. Uma das preocupações daquele tempo foi a de descrever a forma com que a luz se propaga em diferentes meios, o que levou ao desenvolvimento daquilo que hoje é chamado de óptica geométrica. Um dos conceitos fundamentais da óptica geométrica é o de raio de luz, que é definido como sendo o caminho que a luz segue para, partindo de uma fonte luminosa, atingir um ponto qualquer do meio atravessado. Sem entrar em detalhes uma vez que a óptica não é o assunto deste curso, os raios de luz podem ser traçados como sendo linhas orientadas perpendicularmente às frentes de onda e indicam a direção em que a luz está sendo propagada.
+
+Uma das perguntas feitas naquela época foi a seguinte: considerando que a luz emitida por uma fonte atravessa um meio qualquer, qual é o caminho que ela segue? A resposta a essa pergunta foi fornecida por Fermat na forma de um princípio que pode ser assim expresso: para partir de um ponto \(A\) e atingir um ponto \(B\) de um meio qualquer, a luz percorre o caminho que corresponde ao menor tempo de percurso possível. Considerando, por exemplo, um meio onde a velocidade de propagação da luz é constante, o trajeto seguido pela luz emitida em um ponto \(A\) e que atinge um ponto \(B\) qualquer é o segmento de reta \(\overline{AB}\) . Qualquer outra trajetória ou linha contínua, que possa ser traçada entre \(A\) e \(B\) é maior do que o segmento de reta \(\overline{AB}\) e, como a velocidade do meio é constante, o tempo para percorrer essa linha é maior do que o tempo para percorrer o segmento de reta. Se a velocidade do meio não for constante, de forma geral, o caminho mais rápido entre dois dos seus pontos não será um segmento de reta.
+
+A óptica geométrica descreve uma aproximação muito útil para a descrição dos fenômenos ópticos, mas ela é limitada, uma vez que não permite representar fenômenos como a difração da luz. Em geral, os princípios de Huygens e de Fermat podem também ser aplicados a outros fenômenos ondulatórios como a propagação do som e das ondas elásticas, desde que processos de difração não estejam presentes.
+
+Como exemplo, considere que uma onda elástica plana se propaga em um meio caracterizado por uma velocidade da onda igual a \(v_1\) . A direção de propagação dessa onda, indicada na Figura \ref{fig:usp0403} por um único raio que, como prevêem os princípios de Huygens e de Fermat, tem a forma de uma linha reta. Considere agora que esse meio no qual a onda se propaga está em contato com um segundo meio, caracterizado por uma velocidade \(v_2\), diferente de \(v_1\). O contato entre os dois meios é um plano, cujo traço representado na Figura \ref{fig:usp0403} é o eixo das abscissas
+\((x)\), e a direção de propagação da onda no meio com velocidade \(v_1\) é oblíqua a esse eixo. Se a onda incidente passar para o meio caracterizado por ter velocidade de propagação \(v_2\) , o que aconte- ce com o raio da onda?
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/figU03} 
+
+}
+
+\caption{Mudança na direção de propagação de uma onda plana devido a uma mudança brusca de velocidade em uma interface plana ea definição do ângulos de incidência $i$ e $r$.}\label{fig:usp0403}
+\end{figure}
+
+A Figura \ref{fig:usp0403} esquematiza a forma do raio. Como a velcocidade \(v_2\) também é constante, o raio de onda no segundo meio também é uma linha reta. A única coisa que pode mudar, nesse caso, é a direção do raio. Na Figura \ref{fig:usp0403}, o ângulo com que o raio de onda incide \((i)\) sobre a interface entre os dois meios é definido como sendo o ângulo entre a direção do raio e a direção normal (perpendicular) à interface. O ângulo \((r)\) com que o raio emerge no meio caracterizado por uma velocidade de onda \(v_2\) é definido como sendo o ângulo entre essa direção e a direção normal à interface. Identificando dois pontos pertencentes ao caminho seguido pela onda, um no meio caracterizado por \(v_1(x_1 , y_1)\) e o outro no meio caracterizado por \(v_2 (x_2 , y_2)\), a posição do ponto \((x_0,0)\) onde os raios se encontram na interface é determinada impondo o prescrito pelo princípio de Fermat, ou seja, o intervalo de tempo \(\Delta t\) para que a onda saia de \((x_1 , y_1)\) e atinja \((x_2 , y_2)\) é dado por
+
+\begin{equation}
+\Delta t=\frac{\sqrt{\left(x_{1}-x_{0}\right)^{2}+y_{1}^{2}}}{v_{1}}+\frac{\sqrt{\left(x_{2}-x_{0}\right)^{2}+y_{2}^{2}}}{v_{2}}  \label{eq:0332}
+\end{equation}
+
+A Figura \ref{fig:usp0404} representa \(\Delta t\) como função de \(x_0\) , na forma prevista pela Equação \eqref{eq:0332}, para duas situações diferentes: \(v_1 = 2v_2\) e \(v_1 = 0.5v_2\). Nos dois casos, o menor intervalo de tempo \(\Delta t\) não corresponde a \((x_0, 0)\) alinhado a \((x_1, y_1)\) e a \((x_2 , y_2)\).
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/figU04} 
+
+}
+
+\caption{Variação do tempo de propagação de dois pontos fixos, um em cada lado da interface onde ocorre uma mudança brusca de velocidade. A curva azul corresponde ao caso em que a velocidade da onda refratada é o dobro da velocidade da onda incidente. A curva magenta corresponde ao caso em que a velocidade da onda incidente é o dobro da velocidade da onda refratada.}\label{fig:usp0404}
+\end{figure}
+
+A Figura \ref{fig:usp0405} mostra o resultado para os dois casos. No entanto, nos dois casos, a relação
+
+\begin{equation}
+\frac{\operatorname{sen}(i)}{v_{1}}=\frac{\operatorname{sen}(r)}{v_{2}}  \label{eq:0333}
+\end{equation}
+
+é satisfeita. Quando a velocidade \(v_1\) é maior do que a velocidade \(v_2\) , o raio no segundo meio desvia em direção à normal. Na situação oposta, o raio no segundo meio desvia em direção à interface. O fenômeno de mudança de direção em consequência da mudança de meio onde a onda se propaga é conhecido como refração da onda e é observado experimentalmente.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/figU05} 
+
+}
+
+\caption{Esquema representando os raios de onda nas duas situações consideradas na figura anterior.}\label{fig:usp0405}
+\end{figure}
+
+O resultado expresso pela Equação \eqref{eq:0333} é conhecido como lei de Snell e será demonstrado de forma mais rigorosa logo a seguir. No entanto, é bom que fique claro desde já que esse resultado, por mais bonito que seja e por mais elegante que alguém possa considerar a sua demonstração, tem sentido por uma única e exclusiva razão: ele está em perfeito acordo com a experiência. Se não estivesse, os pressupostos utilizados na demonstração teriam de ser revistos.
+
+A Figura \ref{fig:usp0406} esquematiza um meio elástico formado por \(n\) camadas horizontais, cada uma delas caracterizada por uma velocidade \((v_i)\). Em cada camada, o raio proveniente da camada superior é refratado ao passar para a camada inferior de forma que a trajetória seguida pela onda entre dois pontos \(f\) e \(g\) é uma poligonal aberta. Considere agora que, mantendo a espessura total do meio, as camadas se tornam cada vez mais delgadas e as variações de velocidade cada vez menores, de forma a manter sempre a velocidade em torno do ponto \(f\) e em torno do ponto \(g\) constantes. O resultado é uma poligonal com lados cada vez menores, mas com os extremos fixos entre \(f\) e \(g\). O aspecto da poligonal variará com o aumento do número de camadas até um ponto em que as variações serão pequenas e pouco nítidas.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/figU06} 
+
+}
+
+\caption{Meio elástico estratificado caracterizado por camadas com velocidades $v_i$ constantes dentro de cada camada, mas crescentes em função da profundidade. Os raios sísmicos entre os pontos $f$ e $g$ e os ângulos de incidência $(i_i)$ e de refração $(r_i)$ estão indicados na figura.}\label{fig:usp0406}
+\end{figure}
+
+Imagine uma pessoa de visão ruim, um míope, por exemplo, olhando alguém subdividir e traçar as poligonais sucessivamente em um mesmo diagrama (Figura \ref{fig:usp0407}). A forma de poligonal parecerá cada vez menos nítida ao observador no diagrama desenhado e, a partir de certo instante, poligonal e velocidade da onda passarão a parecer curvas contínuas de forma fixa. Além disso, o tempo de percurso entre os pontos será o menor possível. Nesse instante, foi atingido o limite da acuidade visual do observador.
+
+Matematicamente é possível obter de forma exata o resultado simulado no exemplo dado. O método utilizado para demonstrar esse resultado, conhecido como método das variações, é uma ferramenta importante da Física Matemática, mas está for a do propósito deste curso.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/figU07} 
+
+}
+
+\caption{Meio elástico estratificado formado por muitas camadas delgadas com velocidades constantes dentro de cada camada, mas crescente em profundidade. Quanto mais delgadas forem as camadas, mais a poligonal que une os pontos $f$ e $g$ se aproxima de uma curva contínua.}\label{fig:usp0407}
+\end{figure}
+
+\hypertarget{a-lei-de-snell}{%
+\subsection{A lei de Snell}\label{a-lei-de-snell}}
+
+A Figura \ref{fig:usp0408} apresenta esquematicamente uma frente de onda plana, proveniente de um meio caracterizado por uma velocidade \(v_1\) , atingindo obliquamente uma interface plana que separa esse meio de outro caracterizado por uma velocidade de onda \(v_2\). A distância \(\overline{OB}\) equivale à distância entre os raios de onda correspondentes aos pontos \(O\) e \(A\) de uma mesma frente de onda da onda incidente.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/figU08} 
+
+}
+
+\caption{Esquema para a demonstração da lei de Snell para o caso de refração (ver o texto).}\label{fig:usp0408}
+\end{figure}
+
+Como a direção de propagação da onda no primeiro meio é inclinada em relação à interface, o ponto \(A\) da frente de onda toca a interface em um instante \(\Delta t\), posterior ao momento em que o ponto \(O\) toca a interface. Dois raios de onda auxiliares, que tocam a interface nos pontos \(O'\) e \(O''\) foram traçados para auxiliar a construção da frente de onda no meio caracterizado pela velocidade \(v_2\) . Os pontos \(O'\) e \(O''\) dividem a distância \(\overline{OB}\) em três segmentos de igual comprimento. Consequentemente, a frente de onda atinge o ponto \(O'\) no instante \(\Delta t/3\) e o ponto \(O''\), no instante \(2\Delta t/3\).
+
+Aplicando o princípio de Huygens, centrado no ponto \(O\), é traçada a frente de onda circular da onda secundária no instante de tempo \(\Delta t\). Da mesma forma, centrado nos pontos \(O'\) e \(O''\), são traçadas as frentes de onda secundária nesse mesmo instante. A reta que, partindo do ponto \(B\), tangencia as frentes de onda das ondas secundárias é a frente de onda construída para a onda refratada no meio caracterizado pela velocidade \(v_2\) . Com essa construção, ficam desenhados dois triângulos retângulos que têm em comum a hipotenusa, que é o segmento \(\overline{OB}\). O ângulo do triângulo \(OAB\) com vértice em \(O\) é igual ao ângulo de incidência \(i\). Por outro lado, o ângulo do triângulo \(OBP\) com vértice em \(B\) é igual ao ângulo de refração \(r\).
+
+A distância \(AB\) é igual a
+
+\begin{equation}
+\overline{A B}=v_{1} \Delta t  \label{eq:0334}
+\end{equation}
+
+e a distância \(OP\) é igual a
+
+\begin{equation}
+\overline{O P}=v_{2} \Delta t \label{eq:0335}
+\end{equation}
+
+Por outro lado,
+
+\begin{equation}
+\frac{\overline{A B}}{\overline{O B}}=\operatorname{sen}(i), \text { de onde } v_{1} \Delta t=\overline{O B} \operatorname{sen}(i)  \label{eq:0336}
+\end{equation}
+
+e
+
+\begin{equation}
+\frac{\overline{O P}}{\overline{O B}}=\operatorname{sen}(r), \text { de onde } v_{2} \Delta t=\overline{O B} \operatorname{sen}(r)  \label{eq:0337}
+\end{equation}
+
+Dividindo a Equação \eqref{eq:0336} pela Equação \eqref{eq:0337} tem-se
+
+\begin{equation}
+\frac{v_{1}}{v_{2}}=\frac{\operatorname{sen}(i)}{\operatorname{sen}(r)}  \label{eq:0338}
+\end{equation}
+
+que é outra forma de escrever a equação \eqref{eq:0332}.
+
+Quando uma onda incide em uma interface entre meios diferentes, um dos efeitos que podem ser observados é a onda ser refratada. Outro é a onda ser refletida, ou seja, tocar na interface e ser direcionada de volta para o meio de incidência. A Figura \ref{fig:usp0409} esquematiza a construção da frente de onda refletida.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/figU09} 
+
+}
+
+\caption{Esquema para a demonstração da lei de Snell para o caso de reflexão (ver o texto).}\label{fig:usp0409}
+\end{figure}
+
+O ângulo de reflexão \((R)\) é definido como sendo o ângulo que o raio refletido forma com a normal da interface. A frente de onda da onda refletida é obtida de forma absolutamente análoga à construção da frente de onda refratada. Não é difícil ver, no caso de reflexão, que
+
+\begin{equation}
+\frac{\operatorname{sen}(i)}{v_{i}}=\frac{\operatorname{sen}(R)}{v_{r}} \label{eq:0339}
+\end{equation}
+
+onde \(v_i\) e \(v_R\) são as velocidades das ondas incidente e refletida, respectivamente. Se a onda refletida for do mesmo tipo da onda incidente, por exemplo, se ambas forem ondas de compressão,\(v_i\) e \(v_R\) serão iguais e
+
+\begin{equation}
+\operatorname{sen}(i)=\operatorname{sen}(R) \label{eq:0340}
+\end{equation}
+
+Nesse caso, o ângulo de incidência é igual ao ângulo de reflexão. As ondas secundárias, provocadas pelo movimento da interface atingida obliquamente por uma onda de compressão, não são, necessariamente, ondas de compressão no caso de o segundo meio elástico ser dotado de rigidez. A reflexão pode converter parte da energia elástica transportada por uma onda de compressão em ondas de cisalhamento e, nesse caso, a velocidade da onda incidente é diferente da velocidade da onda refletida. As equações \eqref{eq:0338} e \eqref{eq:0339} são expressões das leis de Snell para refração e reflexão.
+
+A Equação \eqref{eq:0338} mostra que, quando o ângulo de refração é de \(90^\circ\), o que só pode ocorrer quando a velocidade \(v_2\) é maior do que a velocidade \(v_1\) , o ângulo de incidência é
+
+\begin{equation}
+\operatorname{sen}\left(i_{r}\right)=\frac{v_{1}}{v_{2}}  \label{eq:0341}
+\end{equation}
+
+O ângulo \(i_r\) recebe o nome de ângulo crítico de refração. Para ângulos de incidência maiores do que \(i_r\) não há onda refratada, e a interface produz apenas reflexões. O ângulo \(i_r\) recebe o nome de ângulo crítico de refração.
+
+A onda refratada produzida por uma onda que incide com ângulo de incidência igual a \(i_r\), algumas vezes chamada de onda criticamente refratada, se propaga no meio caracterizado pela velocidade \(v_2\) na direção paralela à interface, gerando ondas que retornam para o meio caracterizado pela velocidade \(v_1\) partindo da interface com inclinação igual a \(i_r\). (Figura \ref{fig:usp0410})
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/figU10} 
+
+}
+
+\caption{Raio de onda incidente sobre uma interface com ângulo crítico de refração $i_r$ e ondas secundárias geradas na interface entre os meios.}\label{fig:usp0410}
+\end{figure}
+
+\hypertarget{raios-sismicos-e-a-variacao-da-velocidade-das-ondas-sismicas-no-interior-da-terra}{%
+\subsection{Raios sísmicos e a variação da velocidade das ondas sísmicas no interior da Terra}\label{raios-sismicos-e-a-variacao-da-velocidade-das-ondas-sismicas-no-interior-da-terra}}
+
+A estrutura do interior da Terra começou a ser desvendada através do estudo da propagação das ondas sísmicas logo no início do século XX. Em um intervalo de tempo relativamente curto, pouco mais de trinta anos, foi estabelecido um modelo que descreve as principais características da estrutura da Terra. O passo inicial para o estabelecimento desse modelo foi a compilação dos tempos de percurso de todas as fases sísmicas identificadas nos sismogramas registrados na maioria dos observatórios sismológicos.
+
+O termo ``fases sísmicas'' se refere aos diferentes tipos de onda, \(P\), \(S\) e ondas de superfície identificadas em um sismograma. A Figura \ref{fig:usp0411} apresenta, esquematicamente, um sismograma onde estão marcados o instante de chegada da onda \(P\), o instante de chegada da onda \(S\) e os instantes de chegada das ondas \(LR\) e \(LG\).
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{fig/figU11} 
+
+}
+
+\caption{Representação esquemática de um registro em uma estação com um sismômetro vertical e dois sismômetros horizontais em direções perpendiculares. A escala na base da figura é a escala de tempo e o intervalo entre cada marca é de um minuto. Os instantes de chegada das ondas $P$, $S$, $LQ$ e $LR$ estão indicadas pelas pequenas setas.}\label{fig:usp0411}
+\end{figure}
+
+Esses instantes marcam as chegadas das ``fases'' \(P\), \(S\) e das ondas de superfície. No entanto, escondidos no meio do traçado do sismograma estão registradas as chegadas de outras fases que percorreram um caminho diferente ao da onda \(P\), que marca o início do registro no nosso sismograma. A
+identificação das diversas fases sísmicas exige muita experiência do analista, uma vez que a chegada dessas fases é, frequentemente, observada como uma variação sutil, na amplitude, no período dominante ou na regularidade do traçado em meio a um registro ruidoso.
+
+A Figura \ref{fig:usp0412} apresenta graficamente parte da compilação de tempos de percurso publicada por Jeffreys e Bullen em 1970 , que corresponde aos tempos de percurso das ondas \(P\) no intervalo de distâncias epicentrais entre \(10^\circ\) e \(90^\circ\) . A curva traçada na Figura \ref{fig:usp0412} corresponde a uma curva média que melhor representa os diversos tempos de chegada, que, se fossem representados, apareceriam como uma nuvem de pontos em torno da curva traçada. Como tempo de percurso é definido como sendo o tempo necessário para uma onda percorrer a distância entre o epicentro e o ponto onde o sismógrafo é instalado, existe uma variação desse tempo associada à profundidade do foco. A Figura \ref{fig:usp0412} corresponde a focos superficiais.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/figU12} 
+
+}
+
+\caption{Representação gráfica dos tempos de percurso das ondas $P$ compilados por Jeffreys e Bullen (1970), para o intervalo de distâncias epicentrais entre $10^\circ$ e $90^\circ$ (curva magenta). Para comparação, a curva azul representa o tempo de chegada que seria observado caso o interior da Terra fosse caracterizado por ondas $P$ com velocidade constante de $7.9\,\mathrm{km/s}$.}\label{fig:usp0412}
+\end{figure}
+
+A forma da Figura \ref{fig:usp0412} fornece alguma informação sobre a velocidade da onda \(P\) no interior da Terra, desde que se admita, como ponto de partida, que a propagação das ondas sísmicas possa ser descrita usando a teoria dos raios sísmicos.
+
+Se a Terra fosse um meio com velocidade de onda \(P\) onstante \((v_P)\), o raio sísmico entre o foco, que se confunde com o epicentro no caso de um sismo superficial, e a estação sismográfica seria uma linha reta. A Figura \ref{fig:usp0413} indica esse raio e, a partir dessa figura, não é difícil verificar que o tempo de percurso \((T)\) deveria variar como função da distância epicentral \((\Delta)\) seguindo a expressão
+
+\begin{equation}
+T=2 \frac{R}{v_{P}} \operatorname{sen}\left(\frac{\Delta}{2}\right)  \label{eq:0342}
+\end{equation}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/figU13} 
+
+}
+
+\caption{Esquema para o cálculo do tempo de percurso de uma onda sísmica como função da distância epicentral admitindo que a sua velocidade seja constante no interior da Terra.}\label{fig:usp0413}
+\end{figure}
+
+onde \(R\) é o raio da Terra, considerada esférica.
+
+A curva de tempo de chegada prevista pela Equação \eqref{eq:0342}, calculada usando uma velocidade de onda \(P\) de \(7.8\,\mathrm{km/s}\), é comparada com a curva real de tempo de percurso das ondas \(P\) na Figura \ref{fig:usp0412}. A comparação mostra que o tempo de percurso das ondas \(P\) cresce mais lentamente que o tempo de percurso previsto pela equação \eqref{eq:0342}. Não adianta variar o valor da velocidade das ondas \(P\) utilizada na Equação \eqref{eq:0342} porque a forma da curva real não se ajusta à forma prevista pela equação.
+
+O fato de a curva do tempo de percurso variar mais lentamente do que a previsão feita pela equação (10) mostra que a velocidade das ondas \(P\) não é constante no interior da Terra. A velocidade aumenta com a profundidade e, por isso, os tempos de chegada são menores do que os tempos previstos pela nossa equação.
+
+O comportamento do tempo de percurso das ondas \(P\) é repetido no caso das ondas \(S\) (Figura \ref{fig:usp0414}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/figU14} 
+
+}
+
+\caption{Representação gráfica dos tempos de percurso das ondas $S$ compilados por Jeffreys e Bullen (1970), para o intervalo de distâncias epicentrais entre $10^\circ$ e $90^\circ$ (curva magenta). Para comparação, a curva azul representa o tempo de chegada que seria observado caso o interior da Terra fosse caracterizado por ondas $S$ com velocidade constante de $4.7\, \mathrm{km/s}$}\label{fig:usp0414}
+\end{figure}
+
+Uma vez que tanto a Figura \ref{fig:usp0412} quanto a Figura \ref{fig:usp0414} foram construídas com dados de uma tabela de tempo de percurso que compila dados do mundo todo, é de se supor que a variação de velocidade representada em cada curva seja uma boa aproximação para todo o interior da Terra, independentemente tanto da posição do foco do epicentro quanto do observatório sismológico. Essas curvas sugerem, que, pelo menos em primeira aproximação, o interior da Terra, atravessado pelas ondas sísmicas que atingem distâncias epicentrais entre \(10^\circ\) e \(90^\circ\), pode ser representado por um modelo onde a variação da velocidade das ondas sísmicas depende apenas da profundidade. De forma equivalente, se supusermos a Terra como tendo forma esférica, a velocidade das ondas sísmicas pode ser considerada como função apenas da distância ao centro do planeta. Por outro lado, a suavidade das curvas, sem a presença de interrupções e mudanças bruscas de inclinação, indica que a variação das velocidades deve ser contínua e suave.
+
+O fato de as velocidades das ondas \(P\) e \(S\) variarem como função da profundidade implica que as ondas são continuamente refratadas no material atravessado pelos raios sísmicos. Considerando uma esfera de raio \(A\) formada por \(n\) camadas esféricas, cada uma delas caracterizada por uma velocidade \(v_i\; (i = 1,2,3,\cdots,n)\) e separadas por superfícies esféricas de raio \(a_i\) (Figura \ref{fig:usp0415}), os raios sísmicos em cada camada são linhas retas e, nas interfaces, pode-se definir um ângulo de incidência \(i_i\) e um ângulo de refração \(r_i\).
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/figU15} 
+
+}
+
+\caption{Esquema geométrico para dedução das Equações a seguir.}\label{fig:usp0415}
+\end{figure}
+
+No ponto \(g_i\) , onde o raio sísmico cruza a interface, continua valendo a lei de Snell
+
+\begin{equation}
+\frac{\operatorname{sen}\left(i_{i}\right)}{v_{i}}=\frac{\operatorname{sen}\left(r_{i+1}\right)}{v_{i+1}}  \label{eq:0343}
+\end{equation}
+
+onde a descontinuidade plana é representada pelo plano tangente a cada superfície esférica. Da Figura \ref{fig:usp0415} pode-se ver que
+
+\begin{equation}
+l=a_{i} \operatorname{sen}\left(r_{i+1}\right)=a_{i+1} \operatorname{sen}\left(i_{i+1}\right) \label{eq:0344}
+\end{equation}
+
+que, combinado com a equação \eqref{eq:0343}, fornece
+
+\begin{equation}
+\frac{a_{i} \operatorname{sen}\left(i_{i}\right)}{v_{i}}=\frac{a_{i} \operatorname{sen}\left(r_{i+1}\right)}{v_{i+1}}=\frac{a_{i+1} \operatorname{sen}\left(i_{i+1}\right)}{v_{i+1}}= \mathrm{constante} \label{eq:0345}
+\end{equation}
+
+que é válida para qualquer par de interfaces entre camadas. Fazendo as camadas progressivamente mais delgadas de forma que a variação da velocidade se aproxime cada vez mais de uma função suave, a Equação \eqref{eq:0345} se aproxima de uma expressão contínua em relação à distância ao centro da Terra, dada por
+
+\begin{equation}
+\frac{\operatorname{asen}(i(a))}{v(a)}=p= \mathrm{constante} \label{eq:0346}
+\end{equation}
+
+onde \(i(a)\) é o ângulo formado pela direção do raio sísmico com a direção radial, na distância \(a\) ao centro da Terra, e \(v(a)\) é a velocidade da onda sísmica nessa posição. A constante \(p\) recebe o nome de parâmetro sísmico do raio. A Equação \eqref{eq:0346} mostra que, se \(p\) for conhecido, a razão entre a posição do ponto mais profundo atingido pelo raio sísmico, nesse caso, \(i\) é igual a \(90^\circ\), e a velocidade da onda nessa posição pode ser calculada.
+
+Pode-se demonstrar que
+
+\begin{equation}
+\frac{d T}{d \Delta}=p \label{eq:0347}
+\end{equation}
+
+A demonstração desse resultado não é difícil, mas não é importante que ela seja feita agora.
+
+Com base nesses dados, distância epicentral e parâmetro do raio sísmico, é possível obter a distribuição radial de velocidades \(v(a)\). O processo para se obter a distribuição de velocidade das ondas sísmicas é um processo matemático elaborado, algumas vezes chamado de inversão das curvas de tempo de percurso, que envolve uma série de condições e cuja apresentação foge ao propósito deste curso.
+
+Nem todas as curvas de tempo de percurso são simples de serem interpretadas. A Figura \ref{fig:usp0416} resume a tabela de tempo de percurso de Jeffreys e Bullen (1970), mostrando a complexidade do problema de se identificar e interpretar esses dados.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/figU16} 
+
+}
+
+\caption{Curvas de tempo de percurso para diferentes fases sísmicas construída com os dados compilados por Jeffreys e Bullen (1970). Os tempos de percurso das ondas $I$ e $J$ foram omitidos.}\label{fig:usp0416}
+\end{figure}
+
+Algumas conclusões simples podem ser obtidas diretamente da observação da curva. Por exemplo, a curva correspondente à onda \(S\) é interrompida bruscamente a uma distância epicentral um pouco maior do que \(100^\circ\). Essa interrupção brusca indica que os raios sísmicos encontram, a partir de certa profundidade, um meio com rigidez nula, ou seja, um fluido. A posição onde o meio passa a ser fluido pode ser calculada e é marcada por uma descontinuidade bem definida na profundidade de \(2.885\,\mathrm{km}\). Essa descontinuidade recebe o nome de descontinuidade de Gutenberg, em homenagem ao geofísico Beno Gutenberg que a identificou.
+
+A Figura \ref{fig:usp0416} mostra que, entre as curvas de tempo de percurso das ondas \(P\) e \(S\), existem fases sísmicas que foram identificadas no conjunto dos sismogramas utilizado na construção das tabelas de tempo de percurso. Trata-se de ondas do tipo \(P\), que percorrem caminhos que permitem que o tempo de chegada seja inferior ao tempo de chegada da onda \(S\). Fases identificadas como \(PP\) e \(PPP\) são ondas do tipo \(P\) que sofreram uma e duas reflexões, respectivamente, na superfície da Terra, antes de atingirem a posição de um observatório sismológico (Figura \ref{fig:usp0417}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/figU17} 
+
+}
+
+\caption{Definição das fases sísmicas de compressão $P$, $PP$ e $PPP$.}\label{fig:usp0417}
+\end{figure}
+
+A descontinuidade de Gutenberg marca uma transição brusca, onde o material que compõe o interior da Terra perde a rigidez. Sendo uma descontinuidade brusca, que tem reflexo sobre a velocidade das ondas \(P\), o que se espera é que a curva de tempo de percurso perca, pelo menos, a suavidade na distância epicentral correspondente. Observando a figura 4.16, pode-se ver que a curva de tempo de percurso da onda \(P\) se estende de forma suave para além da distância epicentral de \(100^\circ\), chegando até \(150^\circ\). Costuma-se referir às ondas \(P\) com tempo de percurso registrado para distância epicentrais maiores do que \(100^\circ\) como ondas refratadas. O termo refratado é, neste caso, um termo impróprio, uma vez que o contorno da camada fluida pelas ondas \(P\) não é induzido por uma irregularidade.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/figU18} 
+
+}
+
+\caption{Definição da fase sísmica de compressão $PKP$ e da fase sísmica $PcS$ correspondente a uma onda de compressão que, na reflexão na descontinuidade de Gutenberg, é convertida em onda de cisalhamento.}\label{fig:usp0418}
+\end{figure}
+
+com dimensão característica pequena em relação ao comprimento da onda \(P\). O que ocorre é que, nessa região, a velocidade das ondas \(P\) apresenta variações na sua inclinação como função da profundidade, que permitem às ondas \(P\) contornarem parcialmente essa região. Ondas \(P\) aparecem para distâncias maiores do que \(100^\circ\) com uma curva própria de tempos de percurso. Essa curva identificada como \(PKP\) corresponde a tempos de chegada de ondas \(P\) que penetraram na camada líquida abaixo da descontinuidade de Gutemberg (Figura \ref{fig:usp0418}).
+
+A Figura \ref{fig:usp0416} apresenta também curvas que indicam tempos de percurso diferentes de zero para a distância epicentral igual a zero, com valores crescentes para distâncias epicentrais crescentes até, aproximadamente, \(60^\circ\). Essas fases (existem três bem claras no intervalo de tempo de percurso entre 8 segundos e 16 segundos, aproximadamente), identificadas pelos símbolos \(PcP\), \(PcS\) e \(ScS\), correspondem a reflexões na descontinuidade de Gutenberg. A fase \(PcS\) corresponde a uma reflexão onde parte da energia da onda \(P\) incidente foi convertida em onda \(S\) (ver Figura \ref{fig:usp0418}).
+
+A análise das curvas de tempo de percurso permitiu construir o modelo para a distribuição de velocidades das ondas sísmicas no interior da Terra apresentado na Figura \ref{fig:usp0419}.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/figU19} 
+
+}
+
+\caption{Variação das velocidades das ondas sísmicas compressionais $P$ (chamadas de $K$ no núcleo externo e de $I$ no núcleo interno) e das ondas e de cisalhamento $S$ (chamadas de $J$ no núcleo interno) e a identificação do manto terrestre, do núcleo externo e do núcleo interno a partir dessas velocidades.}\label{fig:usp0419}
+\end{figure}
+
+A partir dessa distribuição de velocidade das ondas sísmicas e de considerações sobre a distribuição de massa na Terra, densidade média, massa total e momento de inércia, três grandes regiões foram definidas no interior do planeta: manto, que corresponde ao intervalo de distâncias ao centro da Terra entre \(3486\,\mathrm{km}\) e, aproximadamente, \(6352\,\mathrm{km}\); núcleo externo, correspondendo a distâncias ao centro da Terra entre \(1217\,\mathrm{km}\) e \(3486\,\mathrm{km}\); e o núcleo interno, correspondendo ao intervalo de distâncias ao centro da Terra de \(0\) a \(1217\,\mathrm{km}\).
+
+O manto da Terra é caracterizado por duas regiões distintas. O manto inferior, que se estende desde a descontinuidade de Gutenberg até uma distância radial de \(5701\,\mathrm{km}\) (\(670\,\mathrm{km}\) de profundidade). Nesse intervalo de profundidades, as velocidades das ondas \(P\) e \(S\) decrescem como função da distância ao centro da Terra, de forma regular e suave, partindo de \(13.8\,\mathrm{km/s}\) até \(11\,\mathrm{km/s}\) e de \(7.1\,\mathrm{km/s}\) até \(6\,\mathrm{km/s}\), respectivamente. O manto superior é separado do manto inferior por uma descontinuidade a \(670\,\mathrm{km}\) de profundidade, onde a velocidade das ondas \(P\) cai bruscamente para \(10\,\mathrm{km/s}\) e a velocidade das ondas \(S\) cai para \(5.5\,\mathrm{km/s}\). Logo acima dessa descontinuidade existe uma segunda descontinuidade à profundidade de \(420\,\mathrm{km}\). Entre essas duas descontinuidades, as velocidades das ondas \(P\) e \(S\) decrescem, suavemente, como função da distância ao centro da Terra até \(9.5\,\mathrm{km/s}\) e \(5\,\mathrm{km/s}\), respectivamente. Na descontinuidade a \(420\, \mathrm{km}\) de profundidade, a velocidade das ondas \(P\) cai bruscamente até \(7.8\,\mathrm{km/s}\) e a velocidade das ondas \(S\) cai para \(4.5\,\mathrm{km/s}\), e permanecem em torno desse valor até uma profundidade entre \(60\,\mathrm{km}\) e \(220\,\mathrm{km}\) de baixo dos oceanos e entre \(120\,\mathrm{km}\) e \(220\,\mathrm{km}\) abaixo dos continentes. A partir dessa camada, algumas vezes chamada de zona de baixa velocidade, o modelo de Terra com simetria esférica perde muito do seu sentido. A estrutura abaixo dos continentes é bem diferente da estrutura abaixo dos oceanos. Uma descrição mais detalhada das estruturas dessas regiões será apresentada mais adiante no curso. Acima da zona de baixa velocidade, a velocidade das ondas \(P\) passa de forma que, por enquanto, será considerada brusca, para valores médios de \(7.9\,\mathrm{km/s}\) abaixo dos oceanos e de \(8\,\mathrm{km/s}\) abaixo dos continentes. As velocidades das ondas \(S\) pulam para \(4.6\,\mathrm{km/s}\) abaixo dos oceanos e para \(4.7\,\mathrm{km/s}\) abaixo dos continentes.
+
+Abaixo dos oceanos, o limite superior do manto superior é marcado por uma transição brusca das velocidades das ondas \(P\) para valores médios de \(6.4\,\mathrm{km}\) e das ondas \(S\) para valores médios de \(3.7\,\mathrm{km/s}\). Nas regiões continentais, o limite é marcado por uma transição brusca para velocidades médias de \(6.5\,\mathrm{km/s}\) e de \(3.8\,\mathrm{km/s}\) para as ondas \(P\) e \(S\), respectivamente.
+
+A característica mais marcante do núcleo externo da Terra é a ausência de rigidez, o que acarreta a impossibilidade de propagação de ondas de cisalhamento. Além disso, devido ao fato de a rigidez cair para zero, a descontinuidade de Gutenberg é marcada por uma queda brusca na velocidade das ondas \(P\) de \(13.8\,\mathrm{km/s}\), no lado do manto inferior, e para \(8\,\mathrm{km/s}\) no lado do núcleo interno. As ondas de compressão que se propagam no núcleo externo são chamadas ondas \(K\). A velocidade das ondas \(K\) cresce suavemente com o aumento da profundidade até \(10.1\,\mathrm{km/s}\) a uma distância ao centro da Terra de \(1217\,\mathrm{km}\), e a velocidade das ondas de compressão salta bruscamente para \(11\,\mathrm{km/s}\). A variação brusca marca a posição de uma descontinuidade conhecida como descontinuidade de Lehmann, em homenagem a Inge Lehmann, que a identificou pela primeira vez em 1930. Essa descontinuidade marca a posição do topo do núcleo externo.
+
+Abaixo da descontinuidade de Lehmann, as ondas de compressão são identificadas como onda \(I\), cuja velocidade cresce de forma suave em direção ao centro da Terra, mas com uma variação muito pequena. A análise dos tempos de percurso das ondas sísmicas que atingem a região central da Terra sugere que o núcleo interno seja sólido, o que significa que ondas de cisalhamento, que nessa região são chamadas de ondas \(J\), devem se propagar no seu interior. A velocidade das ondas \(J\) é estimada em torno de \(1.6\) a \(1.7\,\mathrm{km/s}\).
+
+\hypertarget{uma-palavra-final}{%
+\subsection{Uma palavra final}\label{uma-palavra-final}}
+
+A tradução das variações das velocidades das ondas sísmicas em termos da variação da densidade do material que compõe o interior da Terra é um processo que envolve o conhecimento da teoria da elasticidade, da termodinâmica dos sólidos e um pouco de matemática, acima do que se espera que tenha um aluno de um curso introdutório. Por isso, apenas o resultado final será apresentado.
+
+A Figura \ref{fig:usp0420} apresenta a variação da densidade como função da profundidade no interior da Terra. As três regiões principais do interior do planeta bem como a separação entre o manto superior e o manto inferior são facilmente reconhecíveis nesse diagrama.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{fig/figU20} 
+
+}
+
+\caption{Variação da densidade do material que compõe o interior da Terra. A curva identificada por $
+ho$ corresponde à densidade nas condições de pressão e temperatura existentes no interior da Terra. A curva identificada por $
+ho_0$ corresponde à densidade desse material extrapolada para a condição de pressão zero e temperatura de $25^\circ\, \mathrm{C}$.}\label{fig:usp0420}
+\end{figure}
+
+A curva traçada em linhas cheias indica a variação da densidade tal como ela deve ocorrer no interior da Terra, variação que se deve a mudanças na composição química do material e aos efeitos da compressão devido ao peso das camadas superiores. A linha tracejada mostra a variação da densidade do material que compõe o interior da Terra com o efeito da compressão corrigido. Os valores indicados correspondem aos valores de densidade que o material deveria ter se a pressão que age sobre ele fosse igual a zero.
+
+A Figura \ref{fig:usp0420} mostra que o manto inferior, o núcleo externo e o núcleo interno são caracterizados por valores constantes de densidade à pressão zero, sugerindo que se trata - cada uma dessas camadas - de um meio, até onde se pode perceber, homogêneo. O manto superior também é dividido em camadas caracterizadas por densidades constantes, separadas pelas descontinuidades localizadas a 420km de profundidade e a 670km de profundidade.
+
+Interpretar as densidades do material que compõe o interior da Terra, em termos de composição química, é um problema da geoquímica, que vamos deixar para os textos de geoquímica e de geodinâmica entendida de forma ampla. No entanto, muito mais para estimular a imaginação e despertar o interesse do leitor do que para realmente transmitir alguma informação, alguma coisa pode ser dita.
+
+A densidade de \(7000\,\mathrm{kg/m^3}\) para o núcleo externo e de \(7200\,\mathrm{kg/m^3}\) para o núcleo interno sugere que ambos sejam metálicos. Além disso, dados sobre a composição química média de alguns meteoritos, que parecem representar a composição química do material que deu origem à Terra, sugerem que o núcleo externo seja composto por uma liga de ferro e níquel onde estão dissolvidos elementos mais leves. Ligas de Fe e Ni são observadas em alguns meteoritos, chamados meteoritos ferrometálicos. A densidade de pouco mais de \(4200\,\mathrm{kg/m^3}\) sugere que o manto inferior seja composto, principalmente, por uma mistura de óxidos de ferro e magnésio, enquanto o manto superior deva ser composto, principalmente, por silicatos desses metais. As diferenças de densidade entre as camadas definidas pelas descontinuidades de \(420\,\mathrm{km}\) e de \(670\,\mathrm{km}\) sugerem que o material com essa composição se apresente como fases mineralógicas diferentes.
+
+\hypertarget{exercicios-1}{%
+\section{Exercícios}\label{exercicios-1}}
+
+\BeginKnitrBlock{exercise}
+\protect\hypertarget{exr:exr31}{}{\label{exr:exr31} }Descreva os movimentos das partículas em relação à direção de propagação das duas ondas do corpo sísmico e das duas ondas de superfície sísmica.
+\EndKnitrBlock{exercise}
+
+\BeginKnitrBlock{exercise}
+\protect\hypertarget{exr:exr32}{}{\label{exr:exr32} }O que é o epicentro de um terremoto? Explique como o epicentro de um terremoto pode ser localizado? Qual é o número mínimo de registros sísmicos necessários?
+\EndKnitrBlock{exercise}
+
+\BeginKnitrBlock{exercise}
+\protect\hypertarget{exr:exr33}{}{\label{exr:exr33} }Explique a diferença entre intensidade e magnitude do terremoto.
+\EndKnitrBlock{exercise}
+
+\BeginKnitrBlock{exercise}
+\protect\hypertarget{exr:exr34}{}{\label{exr:exr34} }Como as velocidades das ondas sísmicas mudam nas principais descontinuidades na estrutura interna da Terra? Como essas descontinuidades são caracterizadas?
+\EndKnitrBlock{exercise}
+
+\BeginKnitrBlock{exercise}
+\protect\hypertarget{exr:exr35}{}{\label{exr:exr35} }Qual direfrença entre ondas \(P\) e \(S\)?
+\EndKnitrBlock{exercise}
+
+\BeginKnitrBlock{exercise}
+\protect\hypertarget{exr:exr36}{}{\label{exr:exr36} }Descreva como a propagação das ondas sísmicas ajundam a descrever a composição interna da Terra
 \EndKnitrBlock{exercise}
 
 \bibliography{book.bib}
